@@ -39,23 +39,52 @@ def zadanie_03: Unit = {
 
 
 def pierwsza(n: Int): Boolean = {
- assert(n > 2)
- var dzielniki=1
- while (dzielniki==0){
-   
- }
-   
- 
- 
-
-   
- 
- 
-
+  
+  var dzielniki=2
+  var i=2
+  while (dzielniki == 2 && i<n/2 ){
+    if (n%i==0){
+      dzielniki+=1
+    }
+    i+=1
+  }
+  dzielniki==2
 }
-@main
-def zadanie_04(liczba: Int): Unit = {
+
+@main 
+def zadanie_04: Unit = {
+  println(pierwsza(11))
+}
+
+def hipoteza(n: Int): Unit = {
+    // znajdujemy i wypisujemy na konsoli wynik
+   
+   var help=0
+   var i=2
+   while (i<=n-i){
+     if (pierwsza(i) && pierwsza(n-i)){
+       println(i)
+       println(n-i)
+       i=n-i
+       help+=1
+     }
+     i+=1
+     
+   }
+   if (help==0) println("nie udalo sie znalesc")
+   
+   
   
 }
+
+
+@main
+def zadanie_05(n: Int): Unit = {
+    if (n>2 && parzysta(n)) hipoteza(n)
+    else println("podano zla liczbe")
+    //   TAK -> wywołujemy hipoteza(n)
+    //   NIE -> kończymy z odpowiednim komunikatem.
+}
+
 
 
