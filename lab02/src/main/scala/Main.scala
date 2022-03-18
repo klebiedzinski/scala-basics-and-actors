@@ -63,8 +63,8 @@ def hipoteza(n: Int): Unit = {
    var i=2
    while (i<=n-i){
      if (pierwsza(i) && pierwsza(n-i)){
-       println(i)
-       println(n-i)
+       println(s"$n==$i+${n-i}")
+       
        i=n-i
        help+=1
      }
