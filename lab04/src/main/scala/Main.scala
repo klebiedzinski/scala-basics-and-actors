@@ -69,5 +69,25 @@ def zadanie_13: Unit = {
     println(divide(lista))
 }
 
+// def and[A](p: Pred[A], q: Pred[A]): Pred[A] = {
+//     a => p(a) && q(a)
+// }
+type Pred[A] = A => Boolean
+
+def or[A](p: Pred[A], q: Pred[A]): Pred[A] = {
+    a => p(a) || q(a)
+}
+
+def not[A](p: Pred[A]): Pred[A] = {
+    a => !p(a)
+}
+
+def imp[A](p: Pred[A], q: Pred[A]): Pred[A] = {
+    a => !p(x) || q(x)
+}
+@main
+def zadanie_14: Unit = {
+    
+}
 
 
