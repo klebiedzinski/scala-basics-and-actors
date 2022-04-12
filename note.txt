@@ -1,9 +1,0 @@
-sbt
-podswitlenie skladni dla scali 
-scala metals
-
-val - kinda stala
-
-@main - program glowny
-
-unit - void
