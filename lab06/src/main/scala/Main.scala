@@ -41,6 +41,19 @@ def zadanie_21: Unit = {
     assert( deStutter(l).reverse == List(1, 2, 4, 1, 3) ) // ==> OK
 }
 
+def remElems[A](list: List[A], k: Int): List[A] = {
+    list.zipWithIndex.filter(tuple => tuple(1) != k).map(tuple => tuple(0))
+
+}
+
+@main
+def zadanie_22: Unit = {
+    val l = List(1, 1, 2, 4, 4, 1, 3)
+    println( remElems(l, 2) == List(1, 1, 4, 4, 1, 3) ) // ==> true
+    println( remElems(l, -1) == l ) // ==> true
+    println( remElems(l, 15) == l ) // ==> true
+}
+
 
 
 
