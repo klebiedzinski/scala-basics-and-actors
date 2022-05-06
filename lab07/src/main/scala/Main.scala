@@ -20,9 +20,7 @@ def zadanie_24: Unit = {
 
 def position[A](l: List[A], el: A): Option[Int] = {
     
-    l.zipWithIndex.find(pair => pair match {
-      case (el,index) => index
-    })
+    Some(l.indexOf(el))
 }
 
 @main
@@ -30,4 +28,35 @@ def zadanie_25: Unit = {
   val lista = List(2, 1, 1, 5)
   position(lista, 1) // ==> Some(1)
   position(lista, 3) // ==> None
+}
+
+def indices[A](l: List[A], el: A): Set[Int] =  {
+    l.zipWithIndex.filter(p => p._1 == el).map(p => p._2).toSet
+}
+
+@main
+def zadanie_26: Unit = {
+  val lista = List(1, 2, 1, 1, 5)
+  indices(lista, 1) // ==> Set(0, 2, 3).
+  indices(lista, 7) // ==> Set()
+}
+
+
+def swap[A](l: List[A]): List[A] = {
+    
+}
+
+@main
+def zadanie_27: Unit = {
+  val lista = List(1, 2, 3, 4, 5)
+  swap(lista) // ==> List(2, 1, 4, 3, 5)
+}
+
+def freq[A](l: List[A]): List[(A, Int)] = {
+    l.groupBy(i=>i).mapValues(_.size).toList
+}
+@main 
+def zadanie_29: Unit = {
+  val lista = List('a','b','a','c','c','a')
+  freq(lista) // ==> List(('a', 3),('b', 1),('c', 2))
 }
