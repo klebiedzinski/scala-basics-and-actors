@@ -41,7 +41,7 @@ def zadanie_26: Unit = {
   indices(lista, 7) // ==> Set()
 }
 
-
+// l.updated(index, wartosc)
 def swap[A](l: List[A]): List[A] = {
     
 }
