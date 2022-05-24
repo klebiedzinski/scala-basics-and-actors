@@ -11,11 +11,18 @@ def zadanie_33: Unit = {
 
 }
 
+def histogram(max: Int): String = {
+     val OIM = io.Source.fromFile("ogniem_i_mieczem.txt").toList.map(el => el.toLower).filter(el => el.isLetter)
+     val O = OIM.toSeq.groupBy(identity).mapValues(_.size).toList.sortWith((p1, p2) => p1._2 > p2._2)
+     val result = O.map((a,b) => s"${a}: ${List.fill(b)("*").mkString}\n")
+     
+     result.mkString
+}
 @main
 def zadanie_34: Unit = {
-  val OIM = io.Source.fromFile("ogniem_i_mieczem.txt").toList
-  val slowa = OIM.map((a) => a.toLower).toList
-  println(slowa)
+  
+  println(histogram(0))
+  
 }
 
 

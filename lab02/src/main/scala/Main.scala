@@ -1,4 +1,4 @@
-val helloStr = "Hello, World!"
+
 
 def parzysta(n: Int): Boolean = {
   return n%2==0

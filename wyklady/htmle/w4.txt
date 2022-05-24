@@ -1,0 +1,57 @@
+W kierunku kolekcji - generycznosc
+
+
+//PREDYKATY
+type IntPred = Int => Boolean  //predykat do liczb calokowitych na funkcjach logicznych
+
+def intAnd(p: IntPred, q: IntPred): IntPred = {
+    n => p(n) && q(n) 
+}
+
+val mniejszaNiż9 = (n: Int) => n < 9
+val większaNiż5 = (n: Int) => n > 5
+
+val r = intAnd(mniejszaNiż9, większaNiż5) // to jest IntPred
+r(3)
+r(7)
+r(10)
+
+
+
+//predykaty na elementach typu A
+type Pred[A] A => Boolean
+
+def and[A](p: Pred[A], q: Pred[A]): Pred[A] = {
+    n => p(n) && q(n) 
+}
+
+and(mniejszaNiż9,większaNiż5) 
+
+
+
+
+//KOLEKCJE
+
+val l = List(1,2,3)
+
+//Operacje na kolekcjach                                                        
+
+
+// - rozmiar
+l.isEmpty // dla list mozna zastapic przez "l == Nil"
+l.nonempty
+l.size
+l.knownSize // kiedy liczenie size kosztuje dzialania to output -1 a jezeli nie to size
+
+
+// testowanie elementow
+l.exists(n => n == 5) // czy w wiaderku znajduje sie liczba 
+l.forall(n => n > 2) // czy wszystkie elementy > 2
+l count (n => n <= 2) // ile elementow >=2  | jezeli metoda ma pojedynczy arg nie musimy uzywac kropki, kwestia czytelnosci
+
+//przeksztalcanie kolekcji
+
+l map {                             //DOMYSLNIE LISTY W SCALI SA NIEMUTOWALNE, TABLICE SA MODYFIKOWALNE
+    n => n * 100                    //
+}
+

@@ -1,0 +1,88 @@
+
+rekurencja stosowa
+silnia(4)=4*silnia(3) itd
+w scali nie ma operatorow
+
+
+
+
+def silnia3(n: BigInt): BigInt = {
+@annotation.tailrec
+def silniaOgonowa(n: BigInt, akumulator: BigInt): BigInt = {
+if ( n <= 0 ) akumulator
+else silniaOgonowa(n - 1, n * akumulator)
+}
+silniaOgonowa(n,1)
+
+
+val f = (n: Int) => n 
+
+val z = (n: Int, m: Int, c: String) => c * (n+m)
+z(3,5,"*")
+Output: String = "********"
+
+
+
+
+val zlozenie = (f: Int => Int, g: Int => Int) => (n: Int) => g(f(n))
+
+
+val f1 = (n: Int) => n+1
+val f2 = (n: Int) => n*3
+
+zlozenie(f1,f2)(5) <------ 16
+zlozenie(f2,f1)(5) <------ 18
+
+w aplikacjach zlozenie funkcji jest odwrotnie niz normalnie dlatego g(f(n))
+
+
+zloezenie(f, f)(123)
+
+
+
+
+listy ("ciagi elementow" - skonczone/ograniczone)
+
+definiowanie:
+val l = list(1,2,3)
+
+na oku listy w skali nie przetwarzamy przez indexy ale ogolnie da sie np l(0)
+l.head - bierze pierwszy element z listy
+l.tail - bierze wszystkie elementy oprocz heada
+nie mozna podmieniac elementow na liscie, listy nie sa mutowalne
+
+0 :: l - dokladanie "0" do listy, l pozostaje bez zmian ale tworzy sie nowa struktura z '0' i l
+wiec --> val l2 = 0 :: l
+**************************************************************************nil = null
+@annotation.tailrec 
+def sumuj(l: list[Int]): Int = {
+ if (i==Nil) akum
+ else 
+	if (l.head != 5) sumuj(l.tail, akum + l.head)
+	else sumuj(l.tail, akum)
+}
+_ - we wzorcach jest to jakikolwiek element i ona mnie nie interesuje
+mozna lepiej:
+wzorce, dopasowanie do wzorca - l match i potem casy 
+def lepszesumuj(l: list[Int], akum: Int = 0) : Int = l match {
+  case Nil => akum // jesli dopasujemy w koncu do wzorca to akum konczy obliczenie 
+  case głowa :: ogon if głowa != 5 => lepszesumuj(ogon, głowa + akum)
+  case _ :: ogon => lepszesumuj(ogon, akum)
+  
+}
+
+
+// Operacje listowe
+
+list(1,2,3).sum --- sumuje elementy listy
+
+
+list(1,2,3).headOption
+
+list(1,2,3) map {
+	n => "*" * n
+}	
+
+
+
+

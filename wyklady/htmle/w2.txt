@@ -1,0 +1,122 @@
+//zmienne 
+var x = 15 // var Int = 15 ale scala sie domysli
+var mozna zmieniac
+// wartosci
+val z = 99
+nie mozna modyfikowac wartosci
+
+//typy podstawowe w Scali
+val charV: Char = 'A'
+val stringV: String = "Ala ma kota"
+val stringV2: String =
+	"""Ala
+	  |ma
+	  |kota
+	  |i psa
+	"""
+
+nasz zamiar to byl:
+
+val stringV3: String = 
+	"""Ala
+          |ma
+          |kota
+          |i psa
+        """.stripMargin
+
+otrzymamy bez tych podlog dziwnych - '|' to jest newline
+
+//funkcje\\
+	
+1.proste funkcje
+
+def inc(x: Int): Int = x + 1
+
+wywolanie: inc(1)
+
+// uwaga - "wartosc wyrazenia blokowego" 
+def inc2(x: Int): Int = {
+	x + 1
+}
+SCALA 3 WPROWADZILA SKLADNIE PYTHONOWA Z WCIECIAMI 
+
+def inc3(x: Int): int = {
+	x + 7
+	x + 1
+}
+inc3(1) -- output to 2 <-- scala ten blok traktuje jako pewna calosc i wartosc tego
+bloku to wartosc ostatniego wyrazenia
+
+nie ma czegos takiego jak return kurwa
+
+// funkcje moga w swoich definicjach uzywac wyrazen warunkowych (NIE typu x > 8)
+W SCALI NIE MA INSTRUKCJI, SA WYRAZENIA
+
+def maksimum(x: Int, y: Int): Int = {
+	if (x > y) x 			<-  WYRAZENIE warunkowe TYPU Int 
+	else y				<-
+}
+maksimum(2, 5)
+
+
+// sztandarowa funkcja (rekurencyjnie zdefiniowana)
+def silnia(n: Int): Int = {
+	if ( n <= 0 ) 1
+	else x * silnia(n - 1)
+}
+
+silnia(4) -- output 24
+W REKURENCJACH TRZEBA PODAC TYP WYNIKU 
+// Jak to sie oblicza? REKURENCJA STOSOWA
+
+/* 
+	duzy komencior
+*/
+
+/*
+silnia(4) --> 
+	4* silnia(3) ==>
+		4*3*silnia(2) ==>
+			4 * 3 * 2 * silnia(1) ==>
+				4*3*2*1*silnia(0) ==>
+				4*3*2*1*1 ==>
+			4*3*2*1 ==>
+		4*3*2 ==>
+	4*6 ==>
+24
+*/
+
+silnia(100) -- zwraca 0!!! - przepelnienie typu int
+silnia(100000) -- wysypuje sie, stackoverflow, przepelnienie stostu, za malo miejsca
+
+akumulator przechowuje nasz dotychczasowy wynik
+def SilniaOgonowa(n: Int, akumulator: Int): Int = {
+	if(n<=0) akumulator
+	else silniaOgonowa(n-1, akumulator * n)
+} 
+
+def lepszaSilnia(n: Int): Int = {
+	def silniaOgonowa(n: Int, akumulator: Int): Int = {
+		if (n<=0) akumulator
+		else silniaOgonowa(n-1,n*akumulator)
+	}
+	silniaOgonowa(n, 1)
+}
+
+lepszaSilnia(10) - odda outpucik
+
+@annotation.tailrec - kompilator sprawdza czy moze zbudowac funkcje bez budowania 
+stosu
+
+def aqq(m: Int)(n: Int): Int = m+n
+
+aqq(2)(3)
+aqq(2) -- nie dziala -- w Scali 2 trzeba uzyc "haka XDDDDDDDDDDDDD"
+aqq(2) w Scali 3 zadziala, wynikiem zastosowania w taki sposob ze mozemy potem ja
+wykorzystac tak ze ona czeka na argument drugi i zwroci wynik 
+
+
+
+
+
+

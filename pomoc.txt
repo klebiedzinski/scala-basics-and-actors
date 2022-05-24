@@ -1,0 +1,40 @@
+mamy liste i chcemy policzyc ile jest w niej elementow
+
+lista.toSeq.groupBy(identity).mapValues(_.size).toList
+
+
+dodawanie do siebie list albo setow
+l1 ++ l2
+usuwanie z l1 el. l2
+l1 -- l2
+
+set.intersect(anotherset) - czesc wspolna
+
+
+import scala.io.Source
+val dane = Source.fromFile("ogniem_i_mieczem.txt").toList 
+.getLines - cale linie
+
+
+
+distinct - unique elements - dziala na stringi i listy
+
+
+
+CASE'S:
+jak chcesz head i last miec:
+case head :: (mid:+last)
+
+
+
+.flatten
+
+
+def isPrime(i :Int) : Boolean = {
+    if (i <= 1)
+      false
+    else if (i == 2)
+      true
+    else
+      !(2 to (i-1)).exists(x => i % x == 0)
+}
