@@ -1,0 +1,5 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /home/LABPK/klebiedzinski/Pulpit/JP1/lebiedzinski-karol/lab10/src/main/scala/Main.scala:4:1 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m4 |[0m [33mclass[0m [35mGracz35[0m [33mextends[0m [35mActor[0m {[0m
+[0m[[0m[33mwarn[0m] [0m[0m  | [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  | Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
