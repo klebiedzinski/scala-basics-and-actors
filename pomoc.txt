@@ -21,7 +21,7 @@ distinct - unique elements - dziala na stringi i listy
 
 
 
-CASE'S:
+CASES:
 jak chcesz head i last miec:
 case head :: (mid:+last)
 

@@ -29,6 +29,12 @@ def isPrime(i :Int) : Boolean = {
 @main
 def zad5 (n: Int): Unit = {
     val table = List.range(2,n)filter(p => isPrime(p))
-    println(table)
+    val result = for{
+      a <- 2 to 2*n
+      b <- 2 to 2*n
+      if isPrime(a) && isPrime(b) && a<b && a + b == 2*n
+    } yield (a,b)
+    result.toList
+    
 }
 

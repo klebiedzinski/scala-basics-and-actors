@@ -76,4 +76,21 @@ def imp[A](p: Pred[A], q: Pred[A]): Pred[A] = {
     a => !p(a) || q(a)
 }
 
+def sumuj(l: List[Option[Double]]): Option[Double] = {
+    def helper(l: List[Option[Double]],akum: Double= 0.0): Double = l match {
+      case List() => akum
+      case head :: tail => if (head.getOrElse(0.0) > 0) helper(tail,akum + head.getOrElse(0.0)) else helper(tail,akum)
+      
+    }
+    Some(helper(l))
+
+}
+
+@main
+def zadanie_10: Unit = {
+    val lista = List(Some(4.0), Some(-3.0), None, Some(1.0), Some(0.0))
+    val wynik = sumuj(lista) // ==> Some(5.0)
+    println(wynik)
+}
+
 

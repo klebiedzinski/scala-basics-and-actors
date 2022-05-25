@@ -22,6 +22,7 @@ def ciąg(n: Int): Int = {
    helper(n)
 }
 
+
 @main
 def zadanie_08(arg: Int): Unit = {
     println(ciąg(arg))

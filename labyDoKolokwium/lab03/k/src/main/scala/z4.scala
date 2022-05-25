@@ -15,28 +15,28 @@
 */
 
 
-   class CountryData(
-        CountryName : String,
-        Year : String,
-        LadderScore : String,
-        LogGDPPerCapita : String,
-        SocialSupport : String,
-        HealthyLifeExpectancyAtBirth : String,
-        FreedomToMakeLifeChoices : String,
-        Generosity : String,
-        PerceptionsOfCorruption : String,
-        PositiveAffect : String,
-        NegativeAffect : String
-    )
 
-// @main
-//     def zad4: Unit = {
-//         val wyniki = io.Source
-//             .fromFile("world-happiness-report.csv")
-//             .getLines
-//             .toList
-//             println(wyniki)
 
-//             wyniki.map(p )
-//     }
+
+@main
+def zad4: Unit = {
+    val wyniki = io.Source
+        .fromFile("world-happiness-report.csv")
+        .getLines
+        .toList
+        .map(p => p.split(",").toList)
+        .filter(!_.exists(p => p == ""))
+        .map(p => (p(0),p(1),p(2)))
+        .groupBy(_(0))
+        .toList
+        .map(p => ((p._1),(p._2.map(el => (el(1),el(2))))))
+        .map(p => (p._1,p._2.sortWith((a,b) => a(0)<b(0))))
+        .map( p => (p._1,p._2.map(el => el(1))))
+        
+        
+        
+    println(wyniki)
+    // println(LadderScoreCount(List((2006,3.851), (2007,4.350), (2008,4.292), (2009,4.741), (2010,4.554), (2011,4.434), (2012,4.245), (2013,4.271), (2014,4.240), (2015,5.038), (2016,4.816), (2017,5.074), (2018,5.251), (2019,4.937), (2020,5.241))))
+        
+}
 

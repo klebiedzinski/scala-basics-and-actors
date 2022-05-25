@@ -48,7 +48,7 @@ def zad3: Unit = {
         val m11= data.filter(p => p(0) == 10).map(p => p(1)).flatten.map(p=> p(0))
         val m12= data.filter(p => p(0) == 11).map(p => p(1)).flatten.map(p=> p(0))
        println(((1,m1.max),(2,m2.max),(3,m3.max),(4,m4.max),(5,m5.max),(6,m6.max),(7,m7.max),(8,m8.max),(9,m9.max),(10,m10.max),(11,m11.max),(12,m12.max)))
-        
+    
         
         
         

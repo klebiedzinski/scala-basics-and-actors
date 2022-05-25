@@ -18,22 +18,29 @@ def zadanie_15: Unit = {
     println(oczyść(lista)) // ==> List(1, 2, 4, 1, 3)
 }
 
-// def skompresuj[A](l: List[A]): List[(A, Int)] = {
-//     def helper[A](l: List[A],akum: List[(A,Int)] = Nil, string: String = "" ): List[(A, Int)] = l match{
-//       case List() => akum
-//       case head :: tail => {
-//         if (head == )
-//       }
-//     }
-    
-    
-// }
+def skompresuj(l: List[Char]): List[(Char, Int)] = {
 
-// @main
-// def zadanie_16: Unit = {
-//     val lista = List('a', 'a', 'b', 'c', 'c', 'c', 'a', 'a', 'b', 'd')
-//     skompresuj(lista) // ==> List(('a', 2), ('b', 1), ('c', 3), ('a', 2), ('b', 1), ('d', 1))
-// }
+    def helper(l: List[Char],akum: List[(Char,Int)] = List(('x',0)) , seq: (Char,Int) = (' ',0) ): List[(Char, Int)] = l match{
+      case List() => akum
+      case head :: tail => seq match{
+        case (' ', 0) => helper(tail,akum,(head, 1))
+        case (head, counter) => helper(tail,akum,(head,counter + 1))
+        case (_, _) => {
+          helper(tail,akum:+seq,(head,1))
+          
+        }
+      }
+    }
+    helper(l)
+    
+    
+}
+
+@main
+def zadanie_16: Unit = {
+    val lista = List('a', 'a', 'b', 'c', 'c', 'c', 'a', 'a', 'b', 'd')
+    println(skompresuj(lista)) // ==> List(('a', 2), ('b', 1), ('c', 3), ('a', 2), ('b', 1), ('d', 1))
+}
 
 def isOrdered[A](leq: (A, A) => Boolean)(l: List[A]): Boolean = l match{
     case Nil | List(_) => true
