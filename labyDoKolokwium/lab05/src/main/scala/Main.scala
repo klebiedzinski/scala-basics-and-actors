@@ -20,15 +20,16 @@ def zadanie_15: Unit = {
 
 def skompresuj(l: List[Char]): List[(Char, Int)] = {
 
-    def helper(l: List[Char],akum: List[(Char,Int)] = List(('x',0)) , seq: (Char,Int) = (' ',0) ): List[(Char, Int)] = l match{
-      case List() => akum
+    def helper(l: List[Char],akum: List[(Char,Int)] = List() , seq: (Char,Int) = (' ',0) ): List[(Char, Int)] = l match{
+      case List() => akum:+seq
       case head :: tail => seq match{
         case (' ', 0) => helper(tail,akum,(head, 1))
-        case (head, counter) => helper(tail,akum,(head,counter + 1))
-        case (_, _) => {
-          helper(tail,akum:+seq,(head,1))
-          
+        case (char, counter) => {
+          if (char == head)
+            helper(tail,akum,(head,counter + 1))
+          else helper(tail,akum:+seq,(head,1))
         }
+        
       }
     }
     helper(l)
@@ -68,6 +69,7 @@ def applyForAll[A, B](l: List[A])(f: A => B): List[B] =  {
     def helper [A, B](l: List[A],akum: List[B]=List())(f: A => B): List[B] = l match{
       case Nil => akum
       case head :: tail => helper(tail,akum:+(f(head)))(f)
+      case head :: Nil => helper(tail,akum:+(f(head)))(f)
     }
     helper(l)(f)
 }
@@ -78,3 +80,5 @@ def zadanie_18: Unit = {
     val f = (n: Int) => n + 3
     println(applyForAll(lista)(f)) // ==> List(4, 6, 8)
 }
+
+

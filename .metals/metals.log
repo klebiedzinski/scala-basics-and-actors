@@ -2350,3 +2350,1443 @@ WARNING: Unmatched cancel notification for request id 2734
 2022.05.25 10:39:25 INFO  no build target found for /home/klebiedzinski/JP1/lebiedzinski-karol/lab03/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.1.2[0m
 2022.05.25 10:39:27 INFO  time: code lens generation in 3.37s[0m
 2022.05.25 10:39:41 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab09/src/main/scala/Main.scala[0m
+2022.05.25 10:45:31 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab09/src/main/scala/Main.scala[0m
+May 25, 2022 10:47:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 38
+2022.05.25 10:48:16 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+May 25, 2022 10:51:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 36 is not a valid line number, allowed [0..35]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+May 25, 2022 10:51:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 36 is not a valid line number, allowed [0..35]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+May 25, 2022 10:51:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 36 is not a valid line number, allowed [0..35]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+May 25, 2022 10:51:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 36 is not a valid line number, allowed [0..35]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+May 25, 2022 10:51:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 36 is not a valid line number, allowed [0..35]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+May 25, 2022 10:51:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 36 is not a valid line number, allowed [0..35]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+May 25, 2022 10:51:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 36 is not a valid line number, allowed [0..35]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+May 25, 2022 10:51:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 36 is not a valid line number, allowed [0..35]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+May 25, 2022 10:51:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 36 is not a valid line number, allowed [0..35]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+May 25, 2022 10:51:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 36 is not a valid line number, allowed [0..35]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+May 25, 2022 10:51:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 36 is not a valid line number, allowed [0..35]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+May 25, 2022 10:51:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 36 is not a valid line number, allowed [0..35]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+May 25, 2022 10:51:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 36 is not a valid line number, allowed [0..35]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+May 25, 2022 10:51:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 36 is not a valid line number, allowed [0..35]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+May 25, 2022 10:51:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 36 is not a valid line number, allowed [0..35]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+May 25, 2022 10:51:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 36 is not a valid line number, allowed [0..35]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+May 25, 2022 10:51:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 36 is not a valid line number, allowed [0..35]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+May 25, 2022 10:52:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 36 is not a valid line number, allowed [0..35]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+May 25, 2022 10:52:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 36 is not a valid line number, allowed [0..35]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+May 25, 2022 10:52:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 36 is not a valid line number, allowed [0..35]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+May 25, 2022 10:52:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 36 is not a valid line number, allowed [0..35]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+May 25, 2022 10:52:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 36 is not a valid line number, allowed [0..35]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+May 25, 2022 10:52:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 37 is not a valid line number, allowed [0..35]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+2022.05.25 10:52:30 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.25 10:52:30 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.25 10:53:02 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.25 10:54:03 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.25 10:54:22 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.25 10:54:32 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.25 10:57:09 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.25 10:58:12 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.25 10:58:38 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.25 10:58:47 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.25 10:58:57 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.25 10:59:08 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.25 10:59:20 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.25 10:59:39 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.25 11:00:09 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.25 11:00:19 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.25 11:05:46 INFO  shutting down Metals[0m
+2022.05.25 14:05:36 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/klebiedzinski/JP1/lebiedzinski-karol/.metals/lsp.trace.json or /home/klebiedzinski/.cache/metals/lsp.trace.json[0m
+2022.05.25 14:05:36 INFO  logging to file /home/klebiedzinski/JP1/lebiedzinski-karol/.metals/metals.log[0m
+2022.05.25 14:05:36 INFO  Started: Metals version 0.11.5 in workspace '/home/klebiedzinski/JP1/lebiedzinski-karol' for client Visual Studio Code 1.67.2.[0m
+2022.05.25 14:05:37 INFO  time: initialize in 1.03s[0m
+2022.05.25 14:05:37 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.05.25 14:05:37 WARN  Build server is not auto-connectable.[0m
+2022.05.25 14:05:38 INFO  skipping build import with status 'Requested'[0m
+2022.05.25 14:05:38 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab09/src/main/scala/Main.scala[0m
+2022.05.25 14:05:38 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.25 14:05:40 INFO  no build target found for /home/klebiedzinski/JP1/lebiedzinski-karol/lab09/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.1.2[0m
+2022.05.25 14:05:43 INFO  time: code lens generation in 4.36s[0m
+2022.05.25 14:08:06 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab03/src/main/scala/Main.scala[0m
+2022.05.25 14:11:55 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab03/src/main/scala/Main.scala[0m
+2022.05.25 14:12:57 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab03/src/main/scala/Main.scala[0m
+2022.05.25 14:38:42 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab05/src/main/scala/Main.scala[0m
+2022.05.25 14:38:48 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab05/src/main/scala/Main.scala[0m
+2022.05.25 14:44:09 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab05/src/main/scala/Main.scala[0m
+2022.05.25 14:44:46 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab05/src/main/scala/Main.scala[0m
+2022.05.25 18:10:10 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+May 25, 2022 6:14:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1051
+2022.05.25 18:14:43 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.25 18:14:48 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.25 18:15:05 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.25 18:15:34 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.25 18:15:39 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.25 18:15:59 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.25 18:16:06 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.25 18:16:43 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.25 18:16:57 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.25 18:17:00 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.25 18:17:12 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.25 18:17:19 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.25 18:17:21 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.25 18:17:32 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.25 18:17:48 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.25 18:18:14 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.25 18:18:38 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.25 18:18:42 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.25 18:19:03 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.25 18:19:56 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.25 18:20:36 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.25 18:34:19 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab04/src/main/scala/Main.scala[0m
+2022.05.25 18:38:10 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab04/src/main/scala/Main.scala[0m
+2022.05.25 18:38:39 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab04/src/main/scala/Main.scala[0m
+2022.05.25 18:55:30 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab04/src/main/scala/Main.scala[0m
+2022.05.25 18:55:31 INFO  shutting down Metals[0m
+2022.05.25 19:06:13 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/klebiedzinski/JP1/lebiedzinski-karol/.metals/lsp.trace.json or /home/klebiedzinski/.cache/metals/lsp.trace.json[0m
+2022.05.25 19:06:14 INFO  logging to file /home/klebiedzinski/JP1/lebiedzinski-karol/.metals/metals.log[0m
+2022.05.25 19:06:14 INFO  Started: Metals version 0.11.5 in workspace '/home/klebiedzinski/JP1/lebiedzinski-karol' for client Visual Studio Code 1.67.2.[0m
+2022.05.25 19:06:15 INFO  time: initialize in 1.18s[0m
+2022.05.25 19:06:15 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.05.25 19:06:15 WARN  Build server is not auto-connectable.[0m
+2022.05.25 19:06:16 INFO  skipping build import with status 'Requested'[0m
+2022.05.25 19:06:16 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab04/src/main/scala/Main.scala[0m
+2022.05.25 19:06:16 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab09/src/main/scala/Main.scala[0m
+2022.05.25 19:06:16 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.25 19:06:16 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab05/src/main/scala/Main.scala[0m
+2022.05.25 19:06:19 INFO  no build target found for /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.1.2[0m
+May 25, 2022 7:06:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+May 25, 2022 7:06:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2022.05.25 19:06:19 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.25 19:06:22 INFO  time: code lens generation in 3.21s[0m
+2022.05.25 19:06:22 INFO  time: code lens generation in 3.41s[0m
+2022.05.25 19:06:22 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab05/src/main/scala/Main.scala[0m
+2022.05.25 19:06:23 INFO  time: code lens generation in 3.96s[0m
+2022.05.25 19:06:49 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab05/src/main/scala/Main.scala[0m
+2022.05.25 22:17:15 INFO  shutting down Metals[0m
+2022.05.25 23:13:14 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/klebiedzinski/JP1/lebiedzinski-karol/.metals/lsp.trace.json or /home/klebiedzinski/.cache/metals/lsp.trace.json[0m
+2022.05.25 23:13:15 INFO  logging to file /home/klebiedzinski/JP1/lebiedzinski-karol/.metals/metals.log[0m
+2022.05.25 23:13:15 INFO  Started: Metals version 0.11.5 in workspace '/home/klebiedzinski/JP1/lebiedzinski-karol' for client Visual Studio Code 1.67.2.[0m
+2022.05.25 23:13:16 INFO  time: initialize in 1.2s[0m
+2022.05.25 23:13:16 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.05.25 23:13:16 WARN  Build server is not auto-connectable.[0m
+2022.05.25 23:13:17 INFO  skipping build import with status 'Requested'[0m
+2022.05.25 23:13:17 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab09/src/main/scala/Main.scala[0m
+2022.05.25 23:13:17 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.25 23:13:17 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab05/src/main/scala/Main.scala[0m
+2022.05.25 23:13:19 INFO  no build target found for /home/klebiedzinski/JP1/lebiedzinski-karol/lab09/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.1.2[0m
+2022.05.25 23:13:22 INFO  time: code lens generation in 4.78s[0m
+2022.05.25 23:21:24 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab05/src/main/scala/Main.scala[0m
+2022.05.25 23:21:26 INFO  shutting down Metals[0m
+2022.05.26 00:27:21 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/klebiedzinski/JP1/lebiedzinski-karol/.metals/lsp.trace.json or /home/klebiedzinski/.cache/metals/lsp.trace.json[0m
+2022.05.26 00:27:22 INFO  logging to file /home/klebiedzinski/JP1/lebiedzinski-karol/.metals/metals.log[0m
+2022.05.26 00:27:22 INFO  Started: Metals version 0.11.5 in workspace '/home/klebiedzinski/JP1/lebiedzinski-karol' for client Visual Studio Code 1.67.2.[0m
+2022.05.26 00:27:23 INFO  time: initialize in 1.05s[0m
+2022.05.26 00:27:23 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.05.26 00:27:23 WARN  Build server is not auto-connectable.[0m
+2022.05.26 00:27:24 INFO  skipping build import with status 'Requested'[0m
+2022.05.26 00:27:24 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.26 00:27:24 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab09/src/main/scala/Main.scala[0m
+2022.05.26 00:27:24 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab05/src/main/scala/Main.scala[0m
+2022.05.26 00:27:26 INFO  no build target found for /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab05/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.1.2[0m
+2022.05.26 00:27:28 INFO  time: code lens generation in 4.63s[0m
+2022.05.26 00:31:34 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+May 26, 2022 12:36:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 32 is not a valid line number, allowed [0..31]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.lineLength$1(Position.scala:57)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:60)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+2022.05.26 00:37:28 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:38:07 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:38:15 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:38:38 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:39:35 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:39:37 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:40:16 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:40:35 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:40:40 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:42:20 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:42:29 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:43:11 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:43:23 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:46:25 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:46:40 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:47:37 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:47:52 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:48:12 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:48:31 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:50:07 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:51:01 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:51:18 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:51:31 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:51:42 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:51:50 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:51:59 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 00:53:32 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 12:23:45 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 13:04:01 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/build.sbt[0m
+May 26, 2022 1:12:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2431
+May 26, 2022 1:17:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 39 is not a valid line number, allowed [0..38]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.lineLength$1(Position.scala:57)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:60)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+2022.05.26 13:17:22 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:17:29 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:17:32 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:17:44 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:18:11 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:18:46 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:19:30 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:19:53 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:19:57 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:19:57 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:20:58 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:21:54 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:24:05 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:24:41 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:26:12 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:27:05 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:27:20 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+May 26, 2022 1:27:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4207
+2022.05.26 13:28:12 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:28:23 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:28:56 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:42:46 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:43:03 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:43:16 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:45:23 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.26 13:45:24 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab03/src/main/scala/Main.scala[0m
+2022.05.26 13:45:38 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab05/src/main/scala/Main.scala[0m
+2022.05.26 13:48:40 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:48:50 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:49:07 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:50:15 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.26 13:50:22 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:50:28 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:50:53 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:51:03 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:51:09 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:51:38 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:51:58 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:52:02 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 13:52:07 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z1.scala[0m
+2022.05.26 14:10:44 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z2.scala[0m
+2022.05.26 14:24:12 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z2.scala[0m
+2022.05.26 14:24:47 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z2.scala[0m
+2022.05.26 14:25:04 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z2.scala[0m
+2022.05.26 14:25:17 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z2.scala[0m
+May 26, 2022 2:25:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7041
+2022.05.26 14:26:39 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z2.scala[0m
+2022.05.26 14:27:37 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z2.scala[0m
+2022.05.26 14:27:42 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z2.scala[0m
+2022.05.26 14:29:12 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z2.scala[0m
+2022.05.26 14:29:38 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z2.scala[0m
+2022.05.26 14:29:48 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z2.scala[0m
+2022.05.26 14:29:55 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z2.scala[0m
+2022.05.26 14:30:25 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z2.scala[0m
+2022.05.26 14:42:09 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z2.scala[0m
+2022.05.26 14:42:40 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z2.scala[0m
+2022.05.26 14:48:35 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z2.scala[0m
+2022.05.26 14:48:45 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z2.scala[0m
+May 26, 2022 2:48:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7930
+2022.05.26 14:50:52 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z2.scala[0m
+2022.05.26 14:52:10 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z2.scala[0m
+2022.05.26 14:52:13 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 14:52:37 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:12:05 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:12:21 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:12:26 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:12:48 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:12:59 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:13:05 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:13:15 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+May 26, 2022 4:13:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8969
+2022.05.26 16:13:31 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:13:31 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:13:38 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:15:42 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:16:48 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:18:00 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:18:27 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+May 26, 2022 4:18:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9503
+2022.05.26 16:19:32 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:19:35 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:19:53 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:20:14 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:20:38 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:21:29 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:21:49 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:22:08 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:22:21 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:23:04 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:23:30 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:23:42 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:24:22 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:24:29 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+Exception in thread "pool-3-thread-1" java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2495)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addSymName(SemanticdbSymbols.scala:136)
+	at scala.meta.internal.pc.SemanticdbSymbols$.symbolName(SemanticdbSymbols.scala:79)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted$$anonfun$1(PcDefinitionProvider.scala:106)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted(PcDefinitionProvider.scala:106)
+	at scala.meta.internal.pc.PcDefinitionProvider.findDefinitions(PcDefinitionProvider.scala:82)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitions(PcDefinitionProvider.scala:51)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.definition$$anonfun$1(ScalaPresentationCompiler.scala:113)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022.05.26 16:24:46 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:24:54 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+May 26, 2022 4:26:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10588
+2022.05.26 16:26:16 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:26:35 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:26:55 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:27:00 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:27:07 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:27:21 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:28:21 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:29:18 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:29:23 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:29:36 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:29:50 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:29:56 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:30:07 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:30:36 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:30:36 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:30:45 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:31:01 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:31:11 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:31:19 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:34:49 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:35:48 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:35:53 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:51:09 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 16:51:57 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 16:52:08 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z5.scala[0m
+2022.05.26 17:09:20 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 17:09:42 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 17:09:48 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 17:10:03 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 17:10:15 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 17:10:30 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 17:10:45 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 17:12:01 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 17:12:04 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 17:12:22 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 17:12:36 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 17:12:41 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 17:12:58 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z3.scala[0m
+2022.05.26 17:18:21 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 17:18:25 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 17:19:07 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 17:19:08 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 17:20:18 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 17:20:27 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 17:22:10 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 17:22:10 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 17:22:56 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 17:24:06 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 17:25:03 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 17:25:19 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 17:25:36 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 17:25:43 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 17:25:52 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 17:26:47 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 17:27:31 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 17:27:37 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 17:27:44 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 17:27:58 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 17:28:05 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 17:28:52 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 17:35:22 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 17:41:51 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 18:13:40 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 18:21:39 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z5.scala[0m
+2022.05.26 18:24:54 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 18:34:56 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 18:35:00 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 18:36:33 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 18:44:36 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 18:45:13 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 18:45:24 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 18:47:11 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 18:47:40 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 18:47:51 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 18:48:28 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 18:48:44 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 18:48:49 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 18:48:56 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 19:25:16 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z5.scala[0m
+2022.05.26 19:25:21 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z5.scala[0m
+2022.05.26 19:25:30 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z5.scala[0m
+2022.05.26 19:25:45 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z5.scala[0m
+2022.05.26 19:25:52 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z5.scala[0m
+2022.05.26 19:26:54 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z5.scala[0m
+2022.05.26 19:27:04 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z5.scala[0m
+2022.05.26 19:27:13 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z5.scala[0m
+2022.05.26 19:27:22 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z5.scala[0m
+2022.05.26 19:27:40 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z5.scala[0m
+2022.05.26 19:27:48 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z5.scala[0m
+2022.05.26 19:53:05 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z5.scala[0m
+2022.05.26 19:54:07 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z5.scala[0m
+2022.05.26 19:54:21 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z5.scala[0m
+2022.05.26 22:45:47 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 22:51:45 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 22:52:39 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 22:53:18 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 22:53:43 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.26 22:54:00 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.27 00:07:40 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.27 00:07:41 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.27 00:07:41 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.27 00:08:12 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.27 00:12:24 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.27 00:13:01 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.27 00:13:14 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.27 00:14:17 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.27 00:14:35 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.27 00:14:50 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.05.27 10:20:24 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:22:30 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:22:38 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:23:05 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:23:15 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:23:30 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:24:15 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:24:44 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:24:54 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:25:05 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:25:23 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:25:44 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:25:52 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:26:05 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:28:27 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:28:59 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:29:32 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:30:58 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:31:06 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:31:15 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:31:47 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:32:06 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:32:28 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:32:48 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:32:58 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:33:05 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:35:03 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:35:05 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:35:12 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:35:40 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:36:44 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:37:33 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:37:45 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:37:57 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:38:17 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:38:37 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:39:30 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:39:36 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:39:45 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:39:57 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:40:03 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:40:16 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:40:47 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:41:42 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:42:46 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:42:58 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:43:23 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:43:30 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:43:46 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:43:54 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/cwicz1.scala[0m
+2022.05.27 10:47:04 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z5.scala[0m
+2022.05.27 11:03:46 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab08/src/main/scala/Main.scala[0m
+2022.05.27 11:04:07 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab07/src/main/scala/Main.scala[0m
+2022.05.27 11:04:19 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.27 11:04:30 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.27 11:05:18 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.27 11:05:30 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.27 11:05:43 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.27 11:06:00 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.27 11:06:08 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab08/lab08/src/main/scala/Main.scala[0m
+2022.05.27 11:45:30 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z5.scala[0m
+2022.05.27 12:01:52 INFO  shutting down Metals[0m

@@ -75,6 +75,10 @@ def not[A](p: Pred[A]): Pred[A] = {
 def imp[A](p: Pred[A], q: Pred[A]): Pred[A] = {
     a => !p(a) || q(a)
 }
+@main
+def zad14: Unit ={
+  
+}
 
 def sumuj(l: List[Option[Double]]): Option[Double] = {
     def helper(l: List[Option[Double]],akum: Double= 0.0): Double = l match {

@@ -18,22 +18,18 @@
     Nie używaj zmiennych ani „pętli” (while, for bez yield, foreach).
 */
 
+//Set[(C, Int)]
 
-
-  def countResults[A,B,C](l1: List[A], l2: List[B])(f: (A, B) => C): Set[(C, Int)] = {
-      def helper[A,B,C](l1: List[A], l2: List[B],akum: List[C])(f: (A, B) => C): List[C] = (l1,l2) match {
-          case (List(), List()) | (_, List()) | (List(), _) => akum
-          case(h1 :: t1, h2 :: t2) => {
-              val result = f(h1,h2)
-              helper(t1,t2,akum:+result)(f)
-          }
-      }
-      val almostResult = helper(l1,l2,List())(f)
-      almostResult.toSeq.groupBy(identity).mapValues(_.size).toSet
-  }
-
-
-@main
-def zad1: Unit = {
-    println(countResults(List(1,2,3), List(4,5,4,6))(_+_) == Set((5,1), (7,2)))
+ def countResults[A,B,C](l1: List[A], l2: List[B])(f: (A, B) => C): Set[(C, Int)] = {
+    def helper[A,B,C](l1: List[A], l2: List[B],akum: List[(C, Int)])(f: (A, B) => C): List[(C, Int)] = (l1,l2) match{
+        case (List(), List()) | (List(), _) | (_,List()) => akum
+        case (h1::t1,h2::t2) => helper(t1,t2,akum:+(f(h1,h2),1))(f)
+ }
+ helper(l1,l2,List())(f).toSeq.groupBy(identity).mapValues(_.size).toList.map(p=> (p(0)._1, p(1))).toSet
 }
+
+ @main
+ def zad1: Unit = {
+     println(countResults(List(1,2,3), List(4,5,4,6))(_+_))
+ }
+ // == Set((5,1), (7,2))

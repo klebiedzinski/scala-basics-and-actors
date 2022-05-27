@@ -87,7 +87,9 @@ def imp[A](p: Pred[A], q: Pred[A]): Pred[A] = {
 }
 @main
 def zadanie_14: Unit = {
-    
+    val x = 5: Pred
+  val y = 10: Pred
+  println(or(x,y))
 }
 
 

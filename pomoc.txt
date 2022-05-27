@@ -12,8 +12,10 @@ set.intersect(anotherset) - czesc wspolna
 
 
 import scala.io.Source
-val dane = Source.fromFile("ogniem_i_mieczem.txt").toList 
-.getLines - cale linie
+    val dane = Source.fromFile("temperatury.txt")
+    .getLines
+    .toList
+    .map(p => p.split(" ").toList)
 
 
 
@@ -25,7 +27,7 @@ CASES:
 jak chcesz head i last miec:
 case head :: (mid:+last)
 
-
+intersect
 
 .flatten
 
@@ -38,3 +40,6 @@ def isPrime(i :Int) : Boolean = {
     else
       !(2 to (i-1)).exists(x => i % x == 0)
 }
+
+
+https://www.scala-lang.org/api/2.13.3/scala/collection/immutable/List.html

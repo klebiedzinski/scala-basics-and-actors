@@ -38,19 +38,19 @@ def zadanie_26: Unit = {
   println(indices(lista, 7)) // ==> Set()
 }
 
-// def swap[A](l: List[A]): List[A] = {
-//     val parzyste = l.zipWithIndex.filter(p => p._2%2==0).map(p => p._1)
-//     val nieparzyste = l.zipWithIndex.filter(p => p._2%2==1).map(p => p._1)
-//     l.foldLeft(List(): List[A])((akum, el) => {
+def swap[A](l: List[A]): List[A] = {
+    val parzyste = l.zipWithIndex.filter(p => p._2%2==0).map(p => p._1)
+    val nieparzyste = l.zipWithIndex.filter(p => p._2%2==1).map(p => p._1)
+    val result = nieparzyste.zip(parzyste).map(p=> p.toList).flatten
+    
+    result:+l.last
+}
 
-//     })
-// }
-
-// @main
-// def zadanie_27: Unit = {
-//   val lista = List(1, 2, 3, 4, 5)
-//   swap(lista) // ==> List(2, 1, 4, 3, 5)
-// }
+@main
+def zadanie_27: Unit = {
+  val lista = List(1, 2, 3, 4, 5) 
+  println(swap(lista))  // ==> List(2, 1, 4, 3, 5)
+}
 
 @main 
 def zadanie_28: Unit = {

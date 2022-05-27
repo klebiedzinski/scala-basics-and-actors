@@ -30,19 +30,65 @@ import scala.annotation.tailrec
 */
 
 
-def pairwiseTest[A](l: List[A])(pred: (A, A) => Boolean):Boolean = {
-    @tailrec
-    def helper[A](l: List[A])(pred: (A, A) => Boolean): Boolean = l match{
-        case List() => true
-        case head :: (mid:+last) => {
-            if (pred(head,last)) helper(mid)(pred) else false
-        }
-        case List(el) => true
+
+
+def pairwiseTest[A](l: List[A])(pred: (A, A) => Boolean): Boolean = {
+  def helper[A](l: List[A])(pred: (A,A) => Boolean): Boolean = l match{
+    case List() => true
+    case head :: (mid:+last) => {
+        if (pred(head,last)) helper(mid)(pred)
+        else false
     }
-    helper(l)(pred)
+    case List(el) => true
+  }
+  helper(l)(pred)
+}     
+@main         
+def zad2: Unit = {
+  val res = pairwiseTest(List("fajkel","majkel","mayers","majkel","fajkel"))(_ == _)
+
+  println(pairwiseTest(List(1,2,3,100,3,2,1))(_ == _))
+  println("FAJKEL FAJEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEERSSSSSSSSSSSSSSSSSSSSSSSSSSSSS")
 }
 
-@main
-def zad2: Unit = {
-   println(pairwiseTest(List(1,2,3,3,2,1))(_==_))
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// def pairwiseTest[A](l: List[A])(pred: (A, A) => Boolean):Boolean = {
+//     @tailrec
+//     def helper[A](l: List[A])(pred: (A, A) => Boolean): Boolean = l match{
+//         case List() => true
+//         case head :: (mid:+last) => {
+//             if (pred(head,last)) helper(mid)(pred) else false
+//         }
+//         case List(el) => true
+//     }
+//     helper(l)(pred)
+// }
+
+// @main
+// def zad2: Unit = {
+//    println(pairwiseTest(List(1,2,3,3,2,1))(_==_))
+// }

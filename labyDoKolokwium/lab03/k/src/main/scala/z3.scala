@@ -22,36 +22,103 @@ mutowalnych, "pętli" (while, for bez yield, foreach) oraz nie definiuj żadnej 
 
 */
 
+
+
+
+
+import scala.io.Source
+def maxAvgTemps(data: List[String]): Set[(Int, Double)] = {
+    data
+    .map(p => p.split(" ").toList)
+    .map(p => p.tail.zipWithIndex.map(el =>( el(0),el(1)+1)))
+    .flatten
+    .groupBy(p => p(1)).toList
+    .sortBy(p => p(0))
+    .map(p => (p(0), p(1).map(el => el._1.toDouble)))
+    .map(p => (p(0),p(1).max)).sorted.toSet
+    
+}
+@main
+def zad3: Unit = {
+    val dane = Source.fromFile("temperatury.txt")
+    .getLines
+    .toList
+    
+    // println(dane)
+    println(maxAvgTemps(dane))
+    
+    
+    
+    
+    
+    
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // def maxAvgTemps(data: List[String]): Set[(Int, Double)] = {
 //     data.map(p => p.split(" ").toList)
 // }
-@main
-def zad3: Unit = {
-    val data = io.Source
-        .fromFile("temperatury.txt")
-        .getLines
-        .toList
-        .map(p => p.split(" ").toList)
-        .map(p => List(p(1),p(2),p(3),p(4),p(5),p(6),p(7),p(8),p(9),p(10),p(11),p(12)).zipWithIndex)
-        .flatten
-        .groupBy(_(1)).toList
-        val m1 = data.filter(p => p(0) == 0).map(p => p(1)).flatten.map(p=> p(0))
-        val m2= data.filter(p => p(0) == 1).map(p => p(1)).flatten.map(p=> p(0))
-        val m3= data.filter(p => p(0) == 2).map(p => p(1)).flatten.map(p=> p(0))
-        val m4= data.filter(p => p(0) == 3).map(p => p(1)).flatten.map(p=> p(0))
-        val m5= data.filter(p => p(0) == 4).map(p => p(1)).flatten.map(p=> p(0))
-        val m6= data.filter(p => p(0) == 5).map(p => p(1)).flatten.map(p=> p(0))
-        val m7= data.filter(p => p(0) == 6).map(p => p(1)).flatten.map(p=> p(0))
-        val m8= data.filter(p => p(0) == 7).map(p => p(1)).flatten.map(p=> p(0))
-        val m9= data.filter(p => p(0) == 8).map(p => p(1)).flatten.map(p=> p(0))
-        val m10= data.filter(p => p(0) == 9).map(p => p(1)).flatten.map(p=> p(0))
-        val m11= data.filter(p => p(0) == 10).map(p => p(1)).flatten.map(p=> p(0))
-        val m12= data.filter(p => p(0) == 11).map(p => p(1)).flatten.map(p=> p(0))
-       println(((1,m1.max),(2,m2.max),(3,m3.max),(4,m4.max),(5,m5.max),(6,m6.max),(7,m7.max),(8,m8.max),(9,m9.max),(10,m10.max),(11,m11.max),(12,m12.max)))
+// @main
+// def zad3: Unit = {
+//     val data = io.Source
+//         .fromFile("temperatury.txt")
+//         .getLines
+//         .toList
+//         .map(p => p.split(" ").toList)
+//         .map(p => List(p(1),p(2),p(3),p(4),p(5),p(6),p(7),p(8),p(9),p(10),p(11),p(12)).zipWithIndex)
+//         .flatten
+//         .groupBy(_(1)).toList
+//         val m1 = data.filter(p => p(0) == 0).map(p => p(1)).flatten.map(p=> p(0))
+//         val m2= data.filter(p => p(0) == 1).map(p => p(1)).flatten.map(p=> p(0))
+//         val m3= data.filter(p => p(0) == 2).map(p => p(1)).flatten.map(p=> p(0))
+//         val m4= data.filter(p => p(0) == 3).map(p => p(1)).flatten.map(p=> p(0))
+//         val m5= data.filter(p => p(0) == 4).map(p => p(1)).flatten.map(p=> p(0))
+//         val m6= data.filter(p => p(0) == 5).map(p => p(1)).flatten.map(p=> p(0))
+//         val m7= data.filter(p => p(0) == 6).map(p => p(1)).flatten.map(p=> p(0))
+//         val m8= data.filter(p => p(0) == 7).map(p => p(1)).flatten.map(p=> p(0))
+//         val m9= data.filter(p => p(0) == 8).map(p => p(1)).flatten.map(p=> p(0))
+//         val m10= data.filter(p => p(0) == 9).map(p => p(1)).flatten.map(p=> p(0))
+//         val m11= data.filter(p => p(0) == 10).map(p => p(1)).flatten.map(p=> p(0))
+//         val m12= data.filter(p => p(0) == 11).map(p => p(1)).flatten.map(p=> p(0))
+//        println(((1,m1.max),(2,m2.max),(3,m3.max),(4,m4.max),(5,m5.max),(6,m6.max),(7,m7.max),(8,m8.max),(9,m9.max),(10,m10.max),(11,m11.max),(12,m12.max)))
     
         
         
         
     
-}
+// }
 

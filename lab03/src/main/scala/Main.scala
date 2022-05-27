@@ -21,16 +21,14 @@ def zad6: Unit = {
 @main 
 def zad7(arg: Int): Unit = {
    def IsPrime(x: Int): Boolean = {
-    if (x==2) true
-    else {
-      @scala.annotation.tailrec
-      def tailrec(x: Int, akum: Int): Boolean = {
-        if (x%akum == 0) false
-        else if (akum*akum>x) true
-        else tailrec(x,akum+1)
-      }
-      tailrec(x,2)
-    }
+   if (x==2) true
+   else
+     def helper(x: Int, akum: Int = 2): Boolean = {
+      if (x % akum == 0) false
+      if (akum * akum > x) true
+      else helper(x,akum + 1)
+     }
+     helper(x)
     
   }
   println(IsPrime(arg))
