@@ -1,5 +1,41 @@
-[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /home/LABPK/klebiedzinski/Pulpit/JP1/lebiedzinski-karol/lab10/src/main/scala/Main.scala:4:1 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /home/klebiedzinski/JP1/lebiedzinski-karol/lab11/src/main/scala/Main.scala:4:1 [0m[0m
 [0m[[0m[33mwarn[0m] [0m[0m[33m4 |[0m [33mclass[0m [35mGracz35[0m [33mextends[0m [35mActor[0m {[0m
 [0m[[0m[33mwarn[0m] [0m[0m  | [33m^[0m[0m
 [0m[[0m[33mwarn[0m] [0m[0m  | Line is indented too far to the left, or a `}` is missing[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /home/klebiedzinski/JP1/lebiedzinski-karol/lab11/src/main/scala/Main.scala:34:0 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m34 |[0m[33mclass[0m [35mPlayer2[0m [33mextends[0m [35mActor[0m {[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /home/klebiedzinski/JP1/lebiedzinski-karol/lab11/src/main/scala/Main.scala:47:0 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m47 |[0m@[35mmain[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /home/klebiedzinski/JP1/lebiedzinski-karol/lab11/src/main/scala/Main.scala:48:0 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m48 |[0m[33mdef[0m [36mzad2[0m(): [35mUnit[0m = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /home/klebiedzinski/JP1/lebiedzinski-karol/lab11/src/main/scala/Main.scala:64:0 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m64 |[0m[33mclass[0m [35mPlayer3[0m [33mextends[0m [35mActor[0m {[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /home/klebiedzinski/JP1/lebiedzinski-karol/lab11/src/main/scala/Main.scala:74:0 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m74 |[0m@[35mmain[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /home/klebiedzinski/JP1/lebiedzinski-karol/lab11/src/main/scala/Main.scala:75:0 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m75 |[0m[33mdef[0m [36mzad3[0m(): [35mUnit[0m = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /home/klebiedzinski/JP1/lebiedzinski-karol/lab11/src/main/scala/Main.scala:91:0 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m91 |[0m[33mclass[0m [35mPlayer4[0m [33mextends[0m [35mActor[0m {[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /home/klebiedzinski/JP1/lebiedzinski-karol/lab11/src/main/scala/Main.scala:102:0 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m102 |[0m@[35mmain[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |[33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /home/klebiedzinski/JP1/lebiedzinski-karol/lab11/src/main/scala/Main.scala:103:0 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m103 |[0m[33mdef[0m [36mzad4[0m(): [35mUnit[0m = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |[33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m10 warnings found[0m
