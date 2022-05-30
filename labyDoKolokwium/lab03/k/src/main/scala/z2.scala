@@ -48,8 +48,10 @@ def zad2: Unit = {
   val res = pairwiseTest(List("fajkel","majkel","mayers","majkel","fajkel"))(_ == _)
 
   println(pairwiseTest(List(1,2,3,100,3,2,1))(_ == _))
-  println("FAJKEL FAJEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEERSSSSSSSSSSSSSSSSSSSSSSSSSSSSS")
+ 
 }
+
+
 
 
 
