@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /home/LABPK/klebiedzinski/Pulpit/JP1/lebiedzinski-karol/lab11/src/main/scala/Zad39.scala:7:27 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m7 |[0m       .map(el => ActorRef.actorOf(Props[Pracownik](), [31ms"pracownik [0m$el[31m"[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m  |                  [31m^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |               value actorOf is not a member of object akka.actor.ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
