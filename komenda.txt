@@ -1,1 +1,4 @@
 sbt new wpug/scala3-sbt.g8
+
+
+akka:

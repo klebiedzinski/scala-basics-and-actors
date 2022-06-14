@@ -23,6 +23,10 @@ def zadanie_34: Unit = {
   
   println(histogram(0))
   
+
+  val l1 = List(1,2,3)
+  val el = 2
+  println(l1 :+ el)
 }
 
 
