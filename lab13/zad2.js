@@ -13,12 +13,15 @@ const connect = (funTab, fun) => {
         console.log(tab1)
         const tab2 = tab1.map((el) => {return foo(el)}) 
         console.log(tab2)
-        Promise.all(tab2).then((data) => console.log(data))
-        const result = []
-        tab1.forEach((el,index) => {
-            result.push([el,tab2[index]])
+        Promise.all(tab2).then((data) => {
+            const result = []
+            tab1.forEach((el,index) => {
+                result.push([el,tab2[index]])
+            })
+            console.log(result)
         })
-        console.log(result)
+        
+        
         
         
         
