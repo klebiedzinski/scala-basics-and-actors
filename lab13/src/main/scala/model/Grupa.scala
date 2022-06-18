@@ -24,3 +24,12 @@ class Grupa(zawodnicy: List[ActorRef]) extends Actor {
     case msg => println(msg)
   }
 }
+
+
+
+//grupa.scala
+//po kolei (dla wszystkich zadownikow)
+  // wysyla komunikat Prośba
+  // oczekuje na wynik Zawodnika (zmieniając tożsamość?) - wynik to 
+  // komunikat typu Grupa.Wynik(...)
+// po otrzymaniu wyników od wszystkich zawodników odsyła komunikat Wyniki(...) do Organizatora
