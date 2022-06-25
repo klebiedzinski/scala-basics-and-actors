@@ -1,0 +1,22 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reStart, Some(edc2a57a-6c08-4f6f-9c9d-18abe0f56c3b), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: reStart[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/klebiedzinski/JP1/lebiedzinski-karol/lab10/target/scala-3.1.2/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E040] Syntax Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab10/src/main/scala/Main.scala:53:0 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m53 |[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m   |[31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |eof expected, but '}' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab10/src/main/scala/Main.scala:45:18 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m45 |[0m    [33mval[0m [36mgracz_1[0m = system.actorOf(Props[[35mGracz36[0m](), [31m"gracz_1"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                  [31m^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                  Not found: system[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab10/src/main/scala/Main.scala:46:18 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m46 |[0m    [33mval[0m [36mgracz_2[0m = system.actorOf(Props[[35mGracz36[0m](), [31m"gracz_2"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                  [31m^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                  Not found: system[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Jun 21, 2022 4:21:08 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

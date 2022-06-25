@@ -1,6 +1,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
-[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 15 products, 1 sources, 3 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 29 products, 1 sources, 3 libraries[0m
 [0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/Main.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/Main.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
@@ -11,18 +11,18 @@
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(AkkaIntro$.Piłeczka, AkkaIntro$.Gracz35, AkkaIntro, AkkaIntro$.Ball2, lab11zad2, AkkaIntro$.Graj35, zad1, AkkaIntro$.Player2, AkkaIntro$.Play2)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(AkkaIntro$.piłka2, AkkaIntro$.Gracz35, zadanie38, AkkaIntro, AkkaIntro$.piłka3, zadanie37, AkkaIntro$.Graj35, AkkaIntro$.Graj38, AkkaIntro$.Gracz36, AkkaIntro$.piłka38, zadanie36, AkkaIntro$.piłka1, zadanie35, AkkaIntro$.Gracz37, AkkaIntro$.Graj37, AkkaIntro$.Gracz38, AkkaIntro$.Graj36)[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mall 1 sources are invalidated[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: AkkaIntro$.Piłeczka, AkkaIntro$.Gracz35, AkkaIntro, AkkaIntro$.Ball2, lab11zad2, AkkaIntro$.Graj35, zad1, AkkaIntro$.Player2, AkkaIntro$.Play2[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: AkkaIntro$.piłka2, AkkaIntro$.Gracz35, zadanie38, AkkaIntro, AkkaIntro$.piłka3, zadanie37, AkkaIntro$.Graj35, AkkaIntro$.Graj38, AkkaIntro$.Gracz36, AkkaIntro$.piłka38, zadanie36, AkkaIntro$.piłka1, zadanie35, AkkaIntro$.Gracz37, AkkaIntro$.Graj37, AkkaIntro$.Gracz38, AkkaIntro$.Graj36[0m
 [0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0% of all sources[0m
 [0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/klebiedzinski/JP1/lebiedzinski-karol/lab11/target/scala-3.1.2/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/klebiedzinski/JP1/lebiedzinski-karol/lab10/target/scala-3.1.2/classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: /home/klebiedzinski/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.1.2/scala3-sbt-bridge-3.1.2.jar.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 388ec876 for Scala Compiler version 3.1.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 34531538 for Scala Compiler version 3.1.2[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-unchecked[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
@@ -31,6 +31,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/home/klebiedzinski/.cache/coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_linux_hotspot_8u292b10.tar.gz/jdk8u292-b10/jre/lib/resources.jar:/home/klebiedzinski/.cache/coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_linux_hotspot_8u292b10.tar.gz/jdk8u292-b10/jre/lib/rt.jar:/home/klebiedzinski/.cache/coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_linux_hotspot_8u292b10.tar.gz/jdk8u292-b10/jre/lib/sunrsasign.jar:/home/klebiedzinski/.cache/coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_linux_hotspot_8u292b10.tar.gz/jdk8u292-b10/jre/lib/jsse.jar:/home/klebiedzinski/.cache/coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_linux_hotspot_8u292b10.tar.gz/jdk8u292-b10/jre/lib/jce.jar:/home/klebiedzinski/.cache/coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_linux_hotspot_8u292b10.tar.gz/jdk8u292-b10/jre/lib/charsets.jar:/home/klebiedzinski/.cache/coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_linux_hotspot_8u292b10.tar.gz/jdk8u292-b10/jre/lib/jfr.jar:/home/klebiedzinski/.cache/coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_linux_hotspot_8u292b10.tar.gz/jdk8u292-b10/jre/classes:/home/klebiedzinski/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.1.2/scala3-library_3-3.1.2.jar:/home/klebiedzinski/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/home/klebiedzinski/JP1/lebiedzinski-karol/lab11/target/scala-3.1.2/classes:/home/klebiedzinski/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_3/2.6.19/akka-actor_3-2.6.19.jar:/home/klebiedzinski/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar:/home/klebiedzinski/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_3/1.0.0/scala-java8-compat_3-1.0.0.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 2.205772 s[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/klebiedzinski/JP1/lebiedzinski-karol/lab10/target/scala-3.1.2/classes:/home/klebiedzinski/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_3/2.6.19/akka-actor_3-2.6.19.jar:/home/klebiedzinski/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar:/home/klebiedzinski/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_3/1.0.0/scala-java8-compat_3-1.0.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 4.8166982 s[0m
 [0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m

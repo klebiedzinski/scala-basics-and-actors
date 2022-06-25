@@ -1,5 +1,17 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /home/LABPK/klebiedzinski/Pulpit/JP1/lebiedzinski-karol/lab11/src/main/scala/Zad39.scala:7:27 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m7 |[0m       .map(el => ActorRef.actorOf(Props[Pracownik](), [31ms"pracownik [0m$el[31m"[0m))[0m
-[0m[[0m[31merror[0m] [0m[0m  |                  [31m^^^^^^^^^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m  |               value actorOf is not a member of object akka.actor.ActorRef[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /home/klebiedzinski/JP1/lebiedzinski-karol/lab11/src/main/scala/Zad39.scala:52:1 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m52 |[0m [33mval[0m [36msystem[0m = ActorSystem([31m"zadanie39"[0m)[0m
+[0m[[0m[33mwarn[0m] [0m[0m   | [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   | Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /home/klebiedzinski/JP1/lebiedzinski-karol/lab11/src/main/scala/Zad39.scala:53:1 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m53 |[0m [33mval[0m [36mszef[0m = system.actorOf(Props[[35mSzef[0m](), [31m"szef"[0m)[0m
+[0m[[0m[33mwarn[0m] [0m[0m   | [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   | Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /home/klebiedzinski/JP1/lebiedzinski-karol/lab11/src/main/scala/Zad39.scala:54:1 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m54 |[0m szef ! Init([31m5[0m)[0m
+[0m[[0m[33mwarn[0m] [0m[0m   | [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   | Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /home/klebiedzinski/JP1/lebiedzinski-karol/lab11/src/main/scala/Zad39.scala:55:1 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m55 |[0m szef ! Zlecenie(lista)[0m
+[0m[[0m[33mwarn[0m] [0m[0m   | [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   | Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m

@@ -20,14 +20,16 @@ def ranking():List[(Int, Int)] = {
     .groupBy(_(1)).toList
     .map(x => (x(0),x(1).map(el => el(0))))
     .map(x => (x(0), x(1).filter(el => el==1).length))
-    .filter(x => x._2> 49)
+    println(input.filter(x => x._2> 49))
+    println(input.filter(x => x._2> 51))
+    val result = input
     .sortBy(_._2).reverse
     .zipWithIndex
     .map(el => (el(1)+1,el(0)(0) ))
     
   
 
-    input
+    result
 }
 
 @main

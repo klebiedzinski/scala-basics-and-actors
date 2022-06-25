@@ -1,0 +1,41 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(e33ab4df-ef13-473a-9737-30d3a214f576), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/target/scala-3.1.2/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mZad01FlatSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe ranking function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should provide the expected result for the "test.txt" data file. *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  HashMap(5 -> Set((5,18), (5,12)), 1 -> Set((1,20)), 2 -> Set((2,22)), 7 -> Set((7,2)), 3 -> Set((3,19)), 8 -> Set((8,23)), 4 -> Set((4,9))) did not equal HashMap(5 -> Set((5,18)), 10 -> Set((10,4)), 14 -> Set((14,17)), 20 -> Set((20,25)), 1 -> Set((1,20)), 6 -> Set((6,12)), 21 -> Set((21,3)), 9 -> Set((9,11)), 13 -> Set((13,1)), 2 -> Set((2,22)), 17 -> Set((17,8)), 22 -> Set((22,7)), 12 -> Set((12,21)), 7 -> Set((7,2)), 3 -> Set((3,19)), 18 -> Set((18,6)), 16 -> Set((16,24)), 11 -> Set((11,13)), 23 -> Set((23,5)), 8 -> Set((8,23)), 19 -> Set((19,16)), 4 -> Set((4,9)), 15 -> Set((15,14)), 24 -> Set((24,10)), 25 -> Set((25,15))) (Zad01.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Analysis:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  HashMap(10: -> Set((10,4)), 11: -> Set((11,13)), 12: -> Set((12,21)), 13: -> Set((13,1)), 14: -> Set((14,17)), 15: -> Set((15,14)), 16: -> Set((16,24)), 17: -> Set((17,8)), 18: -> Set((18,6)), 19: -> Set((19,16)), 20: -> Set((20,25)), 21: -> Set((21,3)), 22: -> Set((22,7)), 23: -> Set((23,5)), 24: -> Set((24,10)), 25: -> Set((25,15)), 5: Set((5,18), (5,12)) -> Set((5,18)), 6: -> Set((6,12)), 9: -> Set((9,11)))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mZad02FlatSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFor non-positive len and/or shift argument values the function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw the IllegalArgumentException[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFor empty list and positive values of len and shift the result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should be empty *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(List()) did not equal List() (Zad02.scala:34)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Analysis:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(0: List() -> )[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mExamples provided with the exercise[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return expected results *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(List(1, 2, 3), List(4, 5)) did not equal List(List(1, 2, 3), List(2, 3, 4), List(3, 4, 5)) (Zad02.scala:39)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Analysis:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(1: List(4, 5) -> List(2, 3, 4), 2: -> List(3, 4, 5))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFor len >= list.length and any positive shift the value of group(list)(len, shift)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should equal List(list)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe value of group(list)(1, 1)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should equal list.map(a => List(a))[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 370 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 3, failed 3, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 3 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	Zad01FlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0m	Zad02FlatSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed Jun 18, 2022 6:25:46 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

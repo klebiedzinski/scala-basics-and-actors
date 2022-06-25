@@ -1,1 +1,25 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: /home/LABPK/klebiedzinski/Pulpit/JP1/kolokwium_1/target/scala-3.1.2/kolokwium_1_3-1.0.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/target/scala-3.1.2/kolokwium_1_3-1.0.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	zad2.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/target/scala-3.1.2/classes/zad2.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad02$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/target/scala-3.1.2/classes/Zad02$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad01$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/target/scala-3.1.2/classes/Zad01$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	zadanie_1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/target/scala-3.1.2/classes/zadanie_1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad01$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/target/scala-3.1.2/classes/Zad01$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	test.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/target/scala-3.1.2/classes/test.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad01$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/target/scala-3.1.2/classes/Zad01$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	zad2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/target/scala-3.1.2/classes/zad2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad02$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/target/scala-3.1.2/classes/Zad02$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad02$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/target/scala-3.1.2/classes/Zad02$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	zadanie_1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/target/scala-3.1.2/classes/zadanie_1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
