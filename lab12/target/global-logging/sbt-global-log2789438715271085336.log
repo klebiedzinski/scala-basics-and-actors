@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reStart, Some(d2d63d84-6cbf-4e3d-8024-1deec6a95a3f), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: reStart[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/target/scala-3.1.2/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/src/main/scala/Jabberwocky.scala:22:26 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m22 |[0m  [33mcase class[0m [35mInit[0m([36mzamek1[0m: [35mActorRef[0m, [36mzamek2[0m: [35mActorRef[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                          [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                          Not found: type ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/src/main/scala/Jabberwocky.scala:22:44 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m22 |[0m  [33mcase class[0m [35mInit[0m([36mzamek1[0m: [35mActorRef[0m, [36mzamek2[0m: [35mActorRef[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                            [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                            Not found: type ActorRef[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/src/main/scala/Jabberwocky.scala:21:2 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m21 |[0m  [33mcase object[0m [35mStrzelać[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |  [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |  Line is indented too far to the right, or a `{` or `:` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/src/main/scala/Jabberwocky.scala:22:2 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m22 |[0m  [33mcase class[0m [35mInit[0m([36mzamek1[0m: [35mActorRef[0m, [36mzamek2[0m: [35mActorRef[0m)[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |  [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |  Line is indented too far to the right, or a `{` or `:` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Jun 25, 2022 5:07:47 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

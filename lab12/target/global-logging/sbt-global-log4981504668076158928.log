@@ -1,0 +1,41 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reStart, Some(f256020e-b058-426e-99e2-05094938a55c), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: reStart[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/target/scala-3.1.2/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/src/main/scala/Jabberwocky.scala:22:35 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m22 |[0m  [33mcase class[0m [35mStrzelać[0m([36mprzeciwnicy[0m: [35mActorRef[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                   [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                   Not found: type ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/src/main/scala/Jabberwocky.scala:36:24 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m36 |[0m  [33mdef[0m [36mwalka[0m([36mzamki[0m: [35mList[ActorRef][0m): [35mReceive[0m = {[0m
+[0m[[0m[31merror[0m] [0m[0m   |                        [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                        Not found: type ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/src/main/scala/Jabberwocky.scala:66:29 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m66 |[0m  [33mdef[0m [36mwalczymy[0m([36mobrońcy[0m: [35mList[ActorRef][0m): [35mReceive[0m = {[0m
+[0m[[0m[31merror[0m] [0m[0m   |                             [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                             Not found: type ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/src/main/scala/Jabberwocky.scala:71:33 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m71 |[0m      [33mval[0m [36mnieszczęśnik[0m = obrońcy(random.nextInt(obrońcy.length))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                 [31m^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                 Not found: random[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/src/main/scala/Jabberwocky.scala:74:9 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m74 |[0m    [33mcase[0m Terminated(obrońca) => {[0m
+[0m[[0m[31merror[0m] [0m[0m   |         [31m^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |         Not found: Terminated[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/src/main/scala/Jabberwocky.scala:81:35 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m81 |[0m  [33mcase class[0m [35mStrzała[0m([36mobrońcy[0m: [35mList[ActorRef][0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                   [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                   Not found: type ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E127] Syntax Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/src/main/scala/Jabberwocky.scala:87:9 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m87 |[0m    [33mcase[0m Strzelaj(przeciwnicy) => {[0m
+[0m[[0m[31merror[0m] [0m[0m   |         [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |Obrońca.Strzelaj cannot be used as an extractor in a pattern because it lacks an unapply or unapplySeq method[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/src/main/scala/Jabberwocky.scala:88:6 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m88 |[0m      przeciwnicy ! Strzała[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [31m^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |      Not found: przeciwnicy[0m
+[0m[[0m[31merror[0m] [0m[0m8 errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Jun 25, 2022 8:20:53 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

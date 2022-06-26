@@ -1,0 +1,5 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/src/main/scala/Jabberwocky.scala:121:0 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m121 |[0msiłaWyższa ! SiłaWyższa.Init[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |[33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

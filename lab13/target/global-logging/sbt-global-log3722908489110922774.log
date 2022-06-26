@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reStart, Some(c188cb72-2e94-4ffb-b2d6-3d2fe8f41ec6), Some(CommandSource(console0)))[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid command: reStart[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid project ID: reStart[0m
+[0m[[0m[31merror[0m] [0m[0mExpected ':'[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid key: reStart (similar: target, state, progressState)[0m
+[0m[[0m[31merror[0m] [0m[0mreStart[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

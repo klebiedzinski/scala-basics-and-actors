@@ -1,0 +1,24 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reStart, Some(ad138a24-c48d-4bfc-b70b-6a22477372d7), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: reStart[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/target/scala-3.1.2/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/src/main/scala/Jabberwocky.scala:36:24 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m36 |[0m  [33mdef[0m [36mwalka[0m([36mzamki[0m: [35mList[ActorRef][0m): [35mReceive[0m = {[0m
+[0m[[0m[31merror[0m] [0m[0m   |                        [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                        Not found: type ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/src/main/scala/Jabberwocky.scala:62:29 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m62 |[0m  [33mdef[0m [36mwalczymy[0m([36mobrońcy[0m: [35mList[ActorRef][0m): [35mReceive[0m = {[0m
+[0m[[0m[31merror[0m] [0m[0m   |                             [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                             Not found: type ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/src/main/scala/Jabberwocky.scala:74:25 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m74 |[0m  [33mdef[0m [36mreceive[0m: [35mReceive[0m = {[0m
+[0m[[0m[31merror[0m] [0m[0m   |                         [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                         Found:    Unit[0m
+[0m[[0m[31merror[0m] [0m[0m   |                         Required: Obrońca.this.Receive[0m
+[0m[[0m[31merror[0m] [0m[0m[31m75 |[0m    [0m
+[0m[[0m[31merror[0m] [0m[0m[31m76 |[0m  }[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Jun 25, 2022 7:39:05 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
