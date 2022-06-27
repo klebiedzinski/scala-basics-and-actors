@@ -1,6 +1,6 @@
 package jp1.akka.lab13.model
 
-import akka.actor.{Actor, ActorRef}
+import akka.actor._
 
 object Grupa {
   case object Runda
@@ -9,6 +9,7 @@ object Grupa {
   // o konieczności wykonania próby i „oczekuje”
   // na ich wynik (typu Option[Ocena])
   case object Wyniki
+  case object MamWyniki
   // Polecenie zwrócenia aktualnego rankingu Grupy
   // Oczywiście klasyfikowani są jedynie Zawodnicy,
   // którzy pomyślnie ukończyli swoją próbę
@@ -20,8 +21,34 @@ object Grupa {
   // Grupa kończy rywalizację
 }
 class Grupa(zawodnicy: List[ActorRef]) extends Actor {
+  import Grupa._
   def receive: Receive = {
-    case msg => println(msg)
+    case Runda => {
+      context.become(zbieranieWynikow(zawodnicy, Map(), sender()))
+      zawodnicy.foreach(zawodnik => zawodnik ! Zawodnik.Próba)
+      
+    }
+  }
+  def zbieranieWynikow(zawodnicy: List[ActorRef], wyniki: Map[ActorRef,Option[Ocena]], organizator: ActorRef): Receive = {
+    case Wynik(ocena) => {
+       val sender1 = sender()
+       context.become(zbieranieWynikow(zawodnicy, wyniki+(sender1 -> ocena), organizator))
+       println(wyniki.size+1 == zawodnicy.size)
+       if (wyniki.size+1 == zawodnicy.size) {
+        println("grupa moze dac wynik")
+        context.become(mogeDacWynik(wyniki))
+        
+       }
+    }
+  }
+  def mogeDacWynik(wyniki: Map[ActorRef,Option[Ocena]]): Receive = {
+    case Wyniki => {
+      sender() ! Organizator.Wyniki(wyniki.toList.filter(el => el(1) != None).toMap)
+      // Map((aktor -> Ocena(Int,Int,Int)))
+    }
+    case Koniec => {
+      println("koniec")
+    }
   }
 }
 

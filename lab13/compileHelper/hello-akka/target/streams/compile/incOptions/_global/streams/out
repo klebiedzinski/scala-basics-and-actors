@@ -1,0 +1,35 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/target/scala-3.1.2/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaIntro.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaIntro$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaIntro$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaIntro$MyActor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaIntro.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaIntro$$anon$1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaIntro$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaIntro$MyActor.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaIntro.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaIntro$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaIntro$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaIntro$MyActor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaIntro.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaIntro$$anon$1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaIntro$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaIntro$MyActor.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaIntro.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaIntro$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaIntro$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaIntro$MyActor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaIntro.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaIntro$$anon$1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaIntro$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AkkaIntro$MyActor.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/target/scala-3.1.2/classes.bak[0m

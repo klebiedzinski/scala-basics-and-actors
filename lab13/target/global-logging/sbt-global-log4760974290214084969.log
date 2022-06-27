@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(336408ad-c51b-4c7a-ac2f-6430faaddf14), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/target/scala-3.1.2/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala:57:27 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m57 |[0m      context.become(finał(finalisci))    [0m
+[0m[[0m[31merror[0m] [0m[0m   |                           [31m^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |          Found:    [1m[31m([0m[1m[31mfinalisci[0m[1m[31m [0m[1m[31m:[0m[1m[31m [0mList[[1m[31m([0makka.actor.ActorRef[1m[31m,[0m[1m[31m [0m[1m[31mList[0m[1m[31m[[0m[1m[31mInt[0m[1m[31m][0m[1m[31m)[0m][1m[31m)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |          Required: List[akka.actor.ActorRef][0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 6 s, completed Jun 27, 2022 8:24:58 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

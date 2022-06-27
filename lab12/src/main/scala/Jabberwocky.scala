@@ -74,7 +74,7 @@ class Zamek extends Actor {
       context.system.terminate()
       }
 
-      println(obrońcy.filter(el => el == poległy))
+      // println(obrońcy.filter(el => el == poległy))
       context.become(walczymy(obrońcy.filter(el => el != poległy)))
       
     }

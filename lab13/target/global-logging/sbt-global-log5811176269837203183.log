@@ -1,0 +1,29 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(a02a1e94-d2a1-4bdb-ae15-3061f49fb75b), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/target/scala-3.1.2/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E050] Type Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala:56:22 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m56 |[0m     .map(el => (el,el([31m2[0m)([31m0[0m)+el([31m2[0m)([31m1[0m)+el([31m2[0m)([31m2[0m))).map(el => (el([31m0[0m)([31m0[0m),el([31m0[0m)([31m1[0m),el([31m0[0m)([31m2[0m),el([31m1[0m)))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                    [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |       [33mmethod[0m [35mapply[0m in [33mtrait[0m [35mNonEmptyTuple[0m does not take more parameters[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E050] Type Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala:56:62 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m56 |[0m     .map(el => (el,el([31m2[0m)([31m0[0m)+el([31m2[0m)([31m1[0m)+el([31m2[0m)([31m2[0m))).map(el => (el([31m0[0m)([31m0[0m),el([31m0[0m)([31m1[0m),el([31m0[0m)([31m2[0m),el([31m1[0m)))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                            [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |       [33mmethod[0m [35mapply[0m in [33mtrait[0m [35mNonEmptyTuple[0m does not take more parameters[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E050] Type Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala:56:71 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m56 |[0m     .map(el => (el,el([31m2[0m)([31m0[0m)+el([31m2[0m)([31m1[0m)+el([31m2[0m)([31m2[0m))).map(el => (el([31m0[0m)([31m0[0m),el([31m0[0m)([31m1[0m),el([31m0[0m)([31m2[0m),el([31m1[0m)))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                                     [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |       [33mmethod[0m [35mapply[0m in [33mtrait[0m [35mNonEmptyTuple[0m does not take more parameters[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E050] Type Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala:56:80 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m56 |[0m     .map(el => (el,el([31m2[0m)([31m0[0m)+el([31m2[0m)([31m1[0m)+el([31m2[0m)([31m2[0m))).map(el => (el([31m0[0m)([31m0[0m),el([31m0[0m)([31m1[0m),el([31m0[0m)([31m2[0m),el([31m1[0m)))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                                              [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |       [33mmethod[0m [35mapply[0m in [33mtrait[0m [35mNonEmptyTuple[0m does not take more parameters[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala:56:5 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m56 |[0m     .map(el => (el,el([31m2[0m)([31m0[0m)+el([31m2[0m)([31m1[0m)+el([31m2[0m)([31m2[0m))).map(el => (el([31m0[0m)([31m0[0m),el([31m0[0m)([31m1[0m),el([31m0[0m)([31m2[0m),el([31m1[0m)))[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |     [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |     Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Jun 27, 2022 7:44:45 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

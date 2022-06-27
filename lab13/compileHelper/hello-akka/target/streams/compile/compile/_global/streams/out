@@ -1,0 +1,11 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala:24:30 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m24 |[0m     [33mval[0m [36mres[0m = x.map([36mel[0m => el.toSeq).foldLeft(([36maccum[0m, [36mcurr[0m: [35mList[(Int,String,(Int,Int,Int), Int)][0m) => accum)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                           [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |value toSeq is not a member of (Int, String, (Int, Int, Int), Int) - did you mean el.take?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E081] Type Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala:24:47 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m24 |[0m     [33mval[0m [36mres[0m = x.map([36mel[0m => el.toSeq).foldLeft(([36maccum[0m, [36mcurr[0m: [35mList[(Int,String,(Int,Int,Int), Int)][0m) => accum)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                               [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                      Missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m   |                      I could not infer the type of the parameter accum.[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

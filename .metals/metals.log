@@ -4202,3 +4202,732 @@ Jun 26, 2022 3:45:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 2773
 2022.06.26 15:45:37 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Utl.scala[0m
 2022.06.26 15:45:39 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.26 15:48:10 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.26 15:58:15 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Ocena.scala[0m
+2022.06.26 15:58:18 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.26 15:58:19 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Osoba.scala[0m
+2022.06.26 15:58:21 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Utl.scala[0m
+2022.06.26 17:29:02 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.26 18:25:00 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/zawody.scala[0m
+2022.06.26 18:25:41 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.26 18:25:55 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.26 18:29:15 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Zawodnik.scala[0m
+2022.06.26 18:29:15 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/zawody.scala[0m
+2022.06.26 18:30:13 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Osoba.scala[0m
+2022.06.26 18:30:33 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/zawody.scala[0m
+2022.06.26 18:30:35 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Osoba.scala[0m
+Exception in thread "pool-3-thread-1" java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2495)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isTuple(SignatureHelpProvider.scala:74)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:82)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:41)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:266)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:268)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:264)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:41)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.signatureHelp$$anonfun$1(ScalaPresentationCompiler.scala:235)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Jun 26, 2022 6:34:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3583
+2022.06.26 18:34:37 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.26 18:34:59 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Ocena.scala[0m
+2022.06.26 18:35:59 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.26 18:36:17 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Zawodnik.scala[0m
+2022.06.26 18:36:41 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Utl.scala[0m
+2022.06.26 18:38:21 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.26 18:40:18 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Osoba.scala[0m
+2022.06.26 18:40:20 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Utl.scala[0m
+2022.06.26 18:40:22 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Zawodnik.scala[0m
+2022.06.26 19:06:38 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Utl.scala[0m
+Jun 26, 2022 7:10:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5923
+Jun 26, 2022 7:10:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5928
+2022.06.27 11:49:51 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/klebiedzinski/JP1/lebiedzinski-karol/.metals/lsp.trace.json or /home/klebiedzinski/.cache/metals/lsp.trace.json[0m
+2022.06.27 11:49:52 INFO  logging to file /home/klebiedzinski/JP1/lebiedzinski-karol/.metals/metals.log[0m
+2022.06.27 11:49:52 INFO  Started: Metals version 0.11.6 in workspace '/home/klebiedzinski/JP1/lebiedzinski-karol' for client Visual Studio Code 1.68.1.[0m
+2022.06.27 11:49:52 INFO  time: initialize in 0.77s[0m
+2022.06.27 11:49:53 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.06.27 11:49:53 WARN  Build server is not auto-connectable.[0m
+2022.06.27 11:49:53 INFO  skipping build import with status 'Requested'[0m
+2022.06.27 11:49:53 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 11:49:57 INFO  no build target found for /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala. Using presentation compiler with project's scala-library version: 3.1.2[0m
+2022.06.27 11:50:00 INFO  time: code lens generation in 5.47s[0m
+2022.06.27 12:17:19 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 12:17:32 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Osoba.scala[0m
+Jun 27, 2022 12:19:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 123
+2022.06.27 12:23:40 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 12:26:28 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 12:28:01 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 12:29:16 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 12:30:23 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 12:30:58 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 12:31:34 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 12:31:37 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 12:31:46 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 12:32:00 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 12:32:21 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 12:32:35 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 12:32:50 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 12:32:54 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 12:41:31 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 12:42:10 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 12:42:33 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 12:43:02 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 12:43:39 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 12:43:46 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 12:44:55 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 12:45:54 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 12:46:09 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 12:46:27 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 12:46:44 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 12:46:48 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+Jun 27, 2022 12:47:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1557
+2022.06.27 12:47:59 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 12:48:06 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 12:48:30 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 12:48:40 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 12:49:02 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 12:58:00 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Zawodnik.scala[0m
+2022.06.27 12:58:15 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 12:58:15 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+Jun 27, 2022 12:58:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2132
+2022.06.27 13:00:31 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Ocena.scala[0m
+2022.06.27 13:19:28 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:19:28 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:19:39 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:19:50 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:21:02 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:22:49 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:23:03 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:23:34 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+Exception in thread "pool-3-thread-1" java.lang.Error: dotty.tools.dotc.core.TypeError: Match type reduction failed since selector  EmptyTuple.type
+matches none of the cases
+
+    case EmptyTuple => EmptyTuple
+    case h *: t => F[h] *: scala.Tuple.Map[t, F]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: dotty.tools.dotc.core.TypeError: Match type reduction failed since selector  EmptyTuple.type
+matches none of the cases
+
+    case EmptyTuple => EmptyTuple
+    case h *: t => F[h] *: scala.Tuple.Map[t, F]
+	at dotty.tools.dotc.core.TrackingTypeComparer.recur$2(TypeComparer.scala:2916)
+	at dotty.tools.dotc.core.TrackingTypeComparer.op$proxy70$1(TypeComparer.scala:2936)
+	at dotty.tools.dotc.core.TrackingTypeComparer.matchCases(TypeComparer.scala:2937)
+	at dotty.tools.dotc.core.Types$MatchType.matchCases$1(Types.scala:4852)
+	at dotty.tools.dotc.core.Types$MatchType.reduced$$anonfun$1(Types.scala:4861)
+	at dotty.tools.dotc.core.TypeComparer.inSubComparer(TypeComparer.scala:2646)
+	at dotty.tools.dotc.core.TypeComparer.tracked(TypeComparer.scala:2656)
+	at dotty.tools.dotc.core.TypeComparer$.tracked(TypeComparer.scala:2809)
+	at dotty.tools.dotc.core.Types$MatchType.reduced(Types.scala:4861)
+	at dotty.tools.dotc.core.Types$MatchType.tryNormalize(Types.scala:4810)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1$$anonfun$1(Types.scala:4174)
+	at dotty.tools.dotc.core.MatchTypeTrace$.recurseWith(MatchTypeTrace.scala:83)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1(Types.scala:4175)
+	at dotty.tools.dotc.core.Types$AppliedType.tryNormalize(Types.scala:4180)
+	at dotty.tools.dotc.core.TypeOps$.simplify(TypeOps.scala:147)
+	at dotty.tools.dotc.core.TypeOps$.mapArgs$1(TypeOps.scala:148)
+	at dotty.tools.dotc.core.TypeOps$.mapArgs$1(TypeOps.scala:148)
+	at dotty.tools.dotc.core.TypeOps$.simplify(TypeOps.scala:148)
+	at dotty.tools.dotc.core.Types$Type.simplified(Types.scala:1888)
+	at dotty.tools.dotc.core.TrackingTypeComparer.matchCase$1(TypeComparer.scala:2891)
+	at dotty.tools.dotc.core.TrackingTypeComparer.recur$2(TypeComparer.scala:2906)
+	at dotty.tools.dotc.core.TrackingTypeComparer.op$proxy70$1(TypeComparer.scala:2936)
+	at dotty.tools.dotc.core.TrackingTypeComparer.matchCases(TypeComparer.scala:2937)
+	at dotty.tools.dotc.core.Types$MatchType.matchCases$1(Types.scala:4852)
+	at dotty.tools.dotc.core.Types$MatchType.reduced$$anonfun$1(Types.scala:4861)
+	at dotty.tools.dotc.core.TypeComparer.inSubComparer(TypeComparer.scala:2646)
+	at dotty.tools.dotc.core.TypeComparer.tracked(TypeComparer.scala:2656)
+	at dotty.tools.dotc.core.TypeComparer$.tracked(TypeComparer.scala:2809)
+	at dotty.tools.dotc.core.Types$MatchType.reduced(Types.scala:4861)
+	at dotty.tools.dotc.core.Types$MatchType.tryNormalize(Types.scala:4810)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1$$anonfun$1(Types.scala:4174)
+	at dotty.tools.dotc.core.MatchTypeTrace$.recurseWith(MatchTypeTrace.scala:83)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1(Types.scala:4175)
+	at dotty.tools.dotc.core.Types$AppliedType.tryNormalize(Types.scala:4180)
+	at dotty.tools.dotc.core.TypeOps$.simplify(TypeOps.scala:147)
+	at dotty.tools.dotc.core.TypeOps$.mapArgs$1(TypeOps.scala:148)
+	at dotty.tools.dotc.core.TypeOps$.mapArgs$1(TypeOps.scala:148)
+	at dotty.tools.dotc.core.TypeOps$.simplify(TypeOps.scala:148)
+	at dotty.tools.dotc.core.Types$Type.simplified(Types.scala:1888)
+	at dotty.tools.dotc.core.TrackingTypeComparer.matchCase$1(TypeComparer.scala:2891)
+	at dotty.tools.dotc.core.TrackingTypeComparer.recur$2(TypeComparer.scala:2906)
+	at dotty.tools.dotc.core.TrackingTypeComparer.op$proxy70$1(TypeComparer.scala:2936)
+	at dotty.tools.dotc.core.TrackingTypeComparer.matchCases(TypeComparer.scala:2937)
+	at dotty.tools.dotc.core.Types$MatchType.matchCases$1(Types.scala:4852)
+	at dotty.tools.dotc.core.Types$MatchType.reduced$$anonfun$1(Types.scala:4861)
+	at dotty.tools.dotc.core.TypeComparer.inSubComparer(TypeComparer.scala:2646)
+	at dotty.tools.dotc.core.TypeComparer.tracked(TypeComparer.scala:2656)
+	at dotty.tools.dotc.core.TypeComparer$.tracked(TypeComparer.scala:2809)
+	at dotty.tools.dotc.core.Types$MatchType.reduced(Types.scala:4861)
+	at dotty.tools.dotc.core.Types$MatchType.tryNormalize(Types.scala:4810)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1$$anonfun$1(Types.scala:4174)
+	at dotty.tools.dotc.core.MatchTypeTrace$.recurseWith(MatchTypeTrace.scala:83)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1(Types.scala:4175)
+	at dotty.tools.dotc.core.Types$AppliedType.tryNormalize(Types.scala:4180)
+	at dotty.tools.dotc.core.Types$AppliedType.translucentSuperType(Types.scala:4153)
+	at dotty.tools.dotc.core.TypeErasure.dotty$tools$dotc$core$TypeErasure$$sigName(TypeErasure.scala:816)
+	at dotty.tools.dotc.core.TypeErasure$.sigName(TypeErasure.scala:204)
+	at dotty.tools.dotc.core.Signature$.apply(Signature.scala:169)
+	at dotty.tools.dotc.core.Types$MethodOrPoly.computeSignature$2(Types.scala:3525)
+	at dotty.tools.dotc.core.Types$MethodOrPoly.signature(Types.scala:3546)
+	at dotty.tools.dotc.core.Types$MethodOrPoly.computeSignature$2(Types.scala:3521)
+	at dotty.tools.dotc.core.Types$MethodOrPoly.signature(Types.scala:3546)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.signature(Denotations.scala:612)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.signature(Denotations.scala:602)
+	at dotty.tools.dotc.core.Symbols$Symbol.signature(Symbols.scala:199)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addOverloadIdx$1(SemanticdbSymbols.scala:117)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addDescriptor$1(SemanticdbSymbols.scala:138)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addSymName(SemanticdbSymbols.scala:142)
+	at scala.meta.internal.pc.SemanticdbSymbols$.symbolName(SemanticdbSymbols.scala:80)
+	at scala.meta.internal.pc.completions.CompletionsProvider.mkItem0$1(CompletionsProvider.scala:193)
+	at scala.meta.internal.pc.completions.CompletionsProvider.mkItem$1(CompletionsProvider.scala:224)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:291)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:86)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:87)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:103)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2022.06.27 13:24:02 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:24:32 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:24:38 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:25:05 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+Exception in thread "pool-3-thread-2" java.lang.Error: dotty.tools.dotc.core.TypeError: Match type reduction failed since selector  EmptyTuple.type
+matches none of the cases
+
+    case EmptyTuple => EmptyTuple
+    case h *: t => F[h] *: scala.Tuple.Map[t, F]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: dotty.tools.dotc.core.TypeError: Match type reduction failed since selector  EmptyTuple.type
+matches none of the cases
+
+    case EmptyTuple => EmptyTuple
+    case h *: t => F[h] *: scala.Tuple.Map[t, F]
+	at dotty.tools.dotc.core.TrackingTypeComparer.recur$2(TypeComparer.scala:2916)
+	at dotty.tools.dotc.core.TrackingTypeComparer.op$proxy70$1(TypeComparer.scala:2936)
+	at dotty.tools.dotc.core.TrackingTypeComparer.matchCases(TypeComparer.scala:2937)
+	at dotty.tools.dotc.core.Types$MatchType.matchCases$1(Types.scala:4852)
+	at dotty.tools.dotc.core.Types$MatchType.reduced$$anonfun$1(Types.scala:4861)
+	at dotty.tools.dotc.core.TypeComparer.inSubComparer(TypeComparer.scala:2646)
+	at dotty.tools.dotc.core.TypeComparer.tracked(TypeComparer.scala:2656)
+	at dotty.tools.dotc.core.TypeComparer$.tracked(TypeComparer.scala:2809)
+	at dotty.tools.dotc.core.Types$MatchType.reduced(Types.scala:4861)
+	at dotty.tools.dotc.core.Types$MatchType.tryNormalize(Types.scala:4810)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1$$anonfun$1(Types.scala:4174)
+	at dotty.tools.dotc.core.MatchTypeTrace$.recurseWith(MatchTypeTrace.scala:83)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1(Types.scala:4175)
+	at dotty.tools.dotc.core.Types$AppliedType.tryNormalize(Types.scala:4180)
+	at dotty.tools.dotc.core.TypeOps$.simplify(TypeOps.scala:147)
+	at dotty.tools.dotc.core.TypeOps$.mapArgs$1(TypeOps.scala:148)
+	at dotty.tools.dotc.core.TypeOps$.mapArgs$1(TypeOps.scala:148)
+	at dotty.tools.dotc.core.TypeOps$.simplify(TypeOps.scala:148)
+	at dotty.tools.dotc.core.Types$Type.simplified(Types.scala:1888)
+	at dotty.tools.dotc.core.TrackingTypeComparer.matchCase$1(TypeComparer.scala:2891)
+	at dotty.tools.dotc.core.TrackingTypeComparer.recur$2(TypeComparer.scala:2906)
+	at dotty.tools.dotc.core.TrackingTypeComparer.op$proxy70$1(TypeComparer.scala:2936)
+	at dotty.tools.dotc.core.TrackingTypeComparer.matchCases(TypeComparer.scala:2937)
+	at dotty.tools.dotc.core.Types$MatchType.matchCases$1(Types.scala:4852)
+	at dotty.tools.dotc.core.Types$MatchType.reduced$$anonfun$1(Types.scala:4861)
+	at dotty.tools.dotc.core.TypeComparer.inSubComparer(TypeComparer.scala:2646)
+	at dotty.tools.dotc.core.TypeComparer.tracked(TypeComparer.scala:2656)
+	at dotty.tools.dotc.core.TypeComparer$.tracked(TypeComparer.scala:2809)
+	at dotty.tools.dotc.core.Types$MatchType.reduced(Types.scala:4861)
+	at dotty.tools.dotc.core.Types$MatchType.tryNormalize(Types.scala:4810)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1$$anonfun$1(Types.scala:4174)
+	at dotty.tools.dotc.core.MatchTypeTrace$.recurseWith(MatchTypeTrace.scala:83)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1(Types.scala:4175)
+	at dotty.tools.dotc.core.Types$AppliedType.tryNormalize(Types.scala:4180)
+	at dotty.tools.dotc.core.TypeOps$.simplify(TypeOps.scala:147)
+	at dotty.tools.dotc.core.TypeOps$.mapArgs$1(TypeOps.scala:148)
+	at dotty.tools.dotc.core.TypeOps$.mapArgs$1(TypeOps.scala:148)
+	at dotty.tools.dotc.core.TypeOps$.simplify(TypeOps.scala:148)
+	at dotty.tools.dotc.core.Types$Type.simplified(Types.scala:1888)
+	at dotty.tools.dotc.core.TrackingTypeComparer.matchCase$1(TypeComparer.scala:2891)
+	at dotty.tools.dotc.core.TrackingTypeComparer.recur$2(TypeComparer.scala:2906)
+	at dotty.tools.dotc.core.TrackingTypeComparer.op$proxy70$1(TypeComparer.scala:2936)
+	at dotty.tools.dotc.core.TrackingTypeComparer.matchCases(TypeComparer.scala:2937)
+	at dotty.tools.dotc.core.Types$MatchType.matchCases$1(Types.scala:4852)
+	at dotty.tools.dotc.core.Types$MatchType.reduced$$anonfun$1(Types.scala:4861)
+	at dotty.tools.dotc.core.TypeComparer.inSubComparer(TypeComparer.scala:2646)
+	at dotty.tools.dotc.core.TypeComparer.tracked(TypeComparer.scala:2656)
+	at dotty.tools.dotc.core.TypeComparer$.tracked(TypeComparer.scala:2809)
+	at dotty.tools.dotc.core.Types$MatchType.reduced(Types.scala:4861)
+	at dotty.tools.dotc.core.Types$MatchType.tryNormalize(Types.scala:4810)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1$$anonfun$1(Types.scala:4174)
+	at dotty.tools.dotc.core.MatchTypeTrace$.recurseWith(MatchTypeTrace.scala:83)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1(Types.scala:4175)
+	at dotty.tools.dotc.core.Types$AppliedType.tryNormalize(Types.scala:4180)
+	at dotty.tools.dotc.core.Types$AppliedType.translucentSuperType(Types.scala:4153)
+	at dotty.tools.dotc.core.TypeErasure.dotty$tools$dotc$core$TypeErasure$$sigName(TypeErasure.scala:816)
+	at dotty.tools.dotc.core.TypeErasure$.sigName(TypeErasure.scala:204)
+	at dotty.tools.dotc.core.Signature$.apply(Signature.scala:169)
+	at dotty.tools.dotc.core.Types$MethodOrPoly.computeSignature$2(Types.scala:3525)
+	at dotty.tools.dotc.core.Types$MethodOrPoly.signature(Types.scala:3546)
+	at dotty.tools.dotc.core.Types$MethodOrPoly.computeSignature$2(Types.scala:3521)
+	at dotty.tools.dotc.core.Types$MethodOrPoly.signature(Types.scala:3546)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.signature(Denotations.scala:612)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.signature(Denotations.scala:602)
+	at dotty.tools.dotc.core.Symbols$Symbol.signature(Symbols.scala:199)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addOverloadIdx$1(SemanticdbSymbols.scala:117)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addDescriptor$1(SemanticdbSymbols.scala:138)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addSymName(SemanticdbSymbols.scala:142)
+	at scala.meta.internal.pc.SemanticdbSymbols$.symbolName(SemanticdbSymbols.scala:80)
+	at scala.meta.internal.pc.completions.CompletionsProvider.mkItem0$1(CompletionsProvider.scala:193)
+	at scala.meta.internal.pc.completions.CompletionsProvider.mkItem$1(CompletionsProvider.scala:224)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:291)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:86)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:87)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:103)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+Exception in thread "pool-3-thread-3" java.lang.Error: dotty.tools.dotc.core.TypeError: Match type reduction failed since selector  EmptyTuple.type
+matches none of the cases
+
+    case EmptyTuple => EmptyTuple
+    case h *: t => F[h] *: scala.Tuple.Map[t, F]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: dotty.tools.dotc.core.TypeError: Match type reduction failed since selector  EmptyTuple.type
+matches none of the cases
+
+    case EmptyTuple => EmptyTuple
+    case h *: t => F[h] *: scala.Tuple.Map[t, F]
+	at dotty.tools.dotc.core.TrackingTypeComparer.recur$2(TypeComparer.scala:2916)
+	at dotty.tools.dotc.core.TrackingTypeComparer.op$proxy70$1(TypeComparer.scala:2936)
+	at dotty.tools.dotc.core.TrackingTypeComparer.matchCases(TypeComparer.scala:2937)
+	at dotty.tools.dotc.core.Types$MatchType.matchCases$1(Types.scala:4852)
+	at dotty.tools.dotc.core.Types$MatchType.reduced$$anonfun$1(Types.scala:4861)
+	at dotty.tools.dotc.core.TypeComparer.inSubComparer(TypeComparer.scala:2646)
+	at dotty.tools.dotc.core.TypeComparer.tracked(TypeComparer.scala:2656)
+	at dotty.tools.dotc.core.TypeComparer$.tracked(TypeComparer.scala:2809)
+	at dotty.tools.dotc.core.Types$MatchType.reduced(Types.scala:4861)
+	at dotty.tools.dotc.core.Types$MatchType.tryNormalize(Types.scala:4810)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1$$anonfun$1(Types.scala:4174)
+	at dotty.tools.dotc.core.MatchTypeTrace$.recurseWith(MatchTypeTrace.scala:83)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1(Types.scala:4175)
+	at dotty.tools.dotc.core.Types$AppliedType.tryNormalize(Types.scala:4180)
+	at dotty.tools.dotc.core.TypeOps$.simplify(TypeOps.scala:147)
+	at dotty.tools.dotc.core.TypeOps$.mapArgs$1(TypeOps.scala:148)
+	at dotty.tools.dotc.core.TypeOps$.mapArgs$1(TypeOps.scala:148)
+	at dotty.tools.dotc.core.TypeOps$.simplify(TypeOps.scala:148)
+	at dotty.tools.dotc.core.Types$Type.simplified(Types.scala:1888)
+	at dotty.tools.dotc.core.TrackingTypeComparer.matchCase$1(TypeComparer.scala:2891)
+	at dotty.tools.dotc.core.TrackingTypeComparer.recur$2(TypeComparer.scala:2906)
+	at dotty.tools.dotc.core.TrackingTypeComparer.op$proxy70$1(TypeComparer.scala:2936)
+	at dotty.tools.dotc.core.TrackingTypeComparer.matchCases(TypeComparer.scala:2937)
+	at dotty.tools.dotc.core.Types$MatchType.matchCases$1(Types.scala:4852)
+	at dotty.tools.dotc.core.Types$MatchType.reduced$$anonfun$1(Types.scala:4861)
+	at dotty.tools.dotc.core.TypeComparer.inSubComparer(TypeComparer.scala:2646)
+	at dotty.tools.dotc.core.TypeComparer.tracked(TypeComparer.scala:2656)
+	at dotty.tools.dotc.core.TypeComparer$.tracked(TypeComparer.scala:2809)
+	at dotty.tools.dotc.core.Types$MatchType.reduced(Types.scala:4861)
+	at dotty.tools.dotc.core.Types$MatchType.tryNormalize(Types.scala:4810)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1$$anonfun$1(Types.scala:4174)
+	at dotty.tools.dotc.core.MatchTypeTrace$.recurseWith(MatchTypeTrace.scala:83)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1(Types.scala:4175)
+	at dotty.tools.dotc.core.Types$AppliedType.tryNormalize(Types.scala:4180)
+	at dotty.tools.dotc.core.TypeOps$.simplify(TypeOps.scala:147)
+	at dotty.tools.dotc.core.TypeOps$.mapArgs$1(TypeOps.scala:148)
+	at dotty.tools.dotc.core.TypeOps$.mapArgs$1(TypeOps.scala:148)
+	at dotty.tools.dotc.core.TypeOps$.simplify(TypeOps.scala:148)
+	at dotty.tools.dotc.core.Types$Type.simplified(Types.scala:1888)
+	at dotty.tools.dotc.core.TrackingTypeComparer.matchCase$1(TypeComparer.scala:2891)
+	at dotty.tools.dotc.core.TrackingTypeComparer.recur$2(TypeComparer.scala:2906)
+	at dotty.tools.dotc.core.TrackingTypeComparer.op$proxy70$1(TypeComparer.scala:2936)
+	at dotty.tools.dotc.core.TrackingTypeComparer.matchCases(TypeComparer.scala:2937)
+	at dotty.tools.dotc.core.Types$MatchType.matchCases$1(Types.scala:4852)
+	at dotty.tools.dotc.core.Types$MatchType.reduced$$anonfun$1(Types.scala:4861)
+	at dotty.tools.dotc.core.TypeComparer.inSubComparer(TypeComparer.scala:2646)
+	at dotty.tools.dotc.core.TypeComparer.tracked(TypeComparer.scala:2656)
+	at dotty.tools.dotc.core.TypeComparer$.tracked(TypeComparer.scala:2809)
+	at dotty.tools.dotc.core.Types$MatchType.reduced(Types.scala:4861)
+	at dotty.tools.dotc.core.Types$MatchType.tryNormalize(Types.scala:4810)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1$$anonfun$1(Types.scala:4174)
+	at dotty.tools.dotc.core.MatchTypeTrace$.recurseWith(MatchTypeTrace.scala:83)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1(Types.scala:4175)
+	at dotty.tools.dotc.core.Types$AppliedType.tryNormalize(Types.scala:4180)
+	at dotty.tools.dotc.core.Types$AppliedType.translucentSuperType(Types.scala:4153)
+	at dotty.tools.dotc.core.TypeErasure.dotty$tools$dotc$core$TypeErasure$$sigName(TypeErasure.scala:816)
+	at dotty.tools.dotc.core.TypeErasure$.sigName(TypeErasure.scala:204)
+	at dotty.tools.dotc.core.Signature$.apply(Signature.scala:169)
+	at dotty.tools.dotc.core.Types$MethodOrPoly.computeSignature$2(Types.scala:3525)
+	at dotty.tools.dotc.core.Types$MethodOrPoly.signature(Types.scala:3546)
+	at dotty.tools.dotc.core.Types$MethodOrPoly.computeSignature$2(Types.scala:3521)
+	at dotty.tools.dotc.core.Types$MethodOrPoly.signature(Types.scala:3546)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.signature(Denotations.scala:612)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.signature(Denotations.scala:602)
+	at dotty.tools.dotc.core.Symbols$Symbol.signature(Symbols.scala:199)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addOverloadIdx$1(SemanticdbSymbols.scala:117)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addDescriptor$1(SemanticdbSymbols.scala:138)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addSymName(SemanticdbSymbols.scala:142)
+	at scala.meta.internal.pc.SemanticdbSymbols$.symbolName(SemanticdbSymbols.scala:80)
+	at scala.meta.internal.pc.completions.CompletionsProvider.mkItem0$1(CompletionsProvider.scala:193)
+	at scala.meta.internal.pc.completions.CompletionsProvider.mkItem$1(CompletionsProvider.scala:224)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:291)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:86)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:87)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:103)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2022.06.27 13:30:54 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+Jun 27, 2022 1:31:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3438
+Exception in thread "pool-3-thread-4" java.lang.Error: dotty.tools.dotc.core.TypeError: Match type reduction failed since selector  EmptyTuple.type
+matches none of the cases
+
+    case EmptyTuple => EmptyTuple
+    case h *: t => F[h] *: scala.Tuple.Map[t, F]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: dotty.tools.dotc.core.TypeError: Match type reduction failed since selector  EmptyTuple.type
+matches none of the cases
+
+    case EmptyTuple => EmptyTuple
+    case h *: t => F[h] *: scala.Tuple.Map[t, F]
+	at dotty.tools.dotc.core.TrackingTypeComparer.recur$2(TypeComparer.scala:2916)
+	at dotty.tools.dotc.core.TrackingTypeComparer.op$proxy70$1(TypeComparer.scala:2936)
+	at dotty.tools.dotc.core.TrackingTypeComparer.matchCases(TypeComparer.scala:2937)
+	at dotty.tools.dotc.core.Types$MatchType.matchCases$1(Types.scala:4852)
+	at dotty.tools.dotc.core.Types$MatchType.reduced$$anonfun$1(Types.scala:4861)
+	at dotty.tools.dotc.core.TypeComparer.inSubComparer(TypeComparer.scala:2646)
+	at dotty.tools.dotc.core.TypeComparer.tracked(TypeComparer.scala:2656)
+	at dotty.tools.dotc.core.TypeComparer$.tracked(TypeComparer.scala:2809)
+	at dotty.tools.dotc.core.Types$MatchType.reduced(Types.scala:4861)
+	at dotty.tools.dotc.core.Types$MatchType.tryNormalize(Types.scala:4810)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1$$anonfun$1(Types.scala:4174)
+	at dotty.tools.dotc.core.MatchTypeTrace$.recurseWith(MatchTypeTrace.scala:83)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1(Types.scala:4175)
+	at dotty.tools.dotc.core.Types$AppliedType.tryNormalize(Types.scala:4180)
+	at dotty.tools.dotc.core.TypeOps$.simplify(TypeOps.scala:147)
+	at dotty.tools.dotc.core.TypeOps$.mapArgs$1(TypeOps.scala:148)
+	at dotty.tools.dotc.core.TypeOps$.mapArgs$1(TypeOps.scala:148)
+	at dotty.tools.dotc.core.TypeOps$.simplify(TypeOps.scala:148)
+	at dotty.tools.dotc.core.Types$Type.simplified(Types.scala:1888)
+	at dotty.tools.dotc.core.TrackingTypeComparer.matchCase$1(TypeComparer.scala:2891)
+	at dotty.tools.dotc.core.TrackingTypeComparer.recur$2(TypeComparer.scala:2906)
+	at dotty.tools.dotc.core.TrackingTypeComparer.op$proxy70$1(TypeComparer.scala:2936)
+	at dotty.tools.dotc.core.TrackingTypeComparer.matchCases(TypeComparer.scala:2937)
+	at dotty.tools.dotc.core.Types$MatchType.matchCases$1(Types.scala:4852)
+	at dotty.tools.dotc.core.Types$MatchType.reduced$$anonfun$1(Types.scala:4861)
+	at dotty.tools.dotc.core.TypeComparer.inSubComparer(TypeComparer.scala:2646)
+	at dotty.tools.dotc.core.TypeComparer.tracked(TypeComparer.scala:2656)
+	at dotty.tools.dotc.core.TypeComparer$.tracked(TypeComparer.scala:2809)
+	at dotty.tools.dotc.core.Types$MatchType.reduced(Types.scala:4861)
+	at dotty.tools.dotc.core.Types$MatchType.tryNormalize(Types.scala:4810)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1$$anonfun$1(Types.scala:4174)
+	at dotty.tools.dotc.core.MatchTypeTrace$.recurseWith(MatchTypeTrace.scala:83)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1(Types.scala:4175)
+	at dotty.tools.dotc.core.Types$AppliedType.tryNormalize(Types.scala:4180)
+	at dotty.tools.dotc.core.TypeOps$.simplify(TypeOps.scala:147)
+	at dotty.tools.dotc.core.TypeOps$.mapArgs$1(TypeOps.scala:148)
+	at dotty.tools.dotc.core.TypeOps$.mapArgs$1(TypeOps.scala:148)
+	at dotty.tools.dotc.core.TypeOps$.simplify(TypeOps.scala:148)
+	at dotty.tools.dotc.core.Types$Type.simplified(Types.scala:1888)
+	at dotty.tools.dotc.core.TrackingTypeComparer.matchCase$1(TypeComparer.scala:2891)
+	at dotty.tools.dotc.core.TrackingTypeComparer.recur$2(TypeComparer.scala:2906)
+	at dotty.tools.dotc.core.TrackingTypeComparer.op$proxy70$1(TypeComparer.scala:2936)
+	at dotty.tools.dotc.core.TrackingTypeComparer.matchCases(TypeComparer.scala:2937)
+	at dotty.tools.dotc.core.Types$MatchType.matchCases$1(Types.scala:4852)
+	at dotty.tools.dotc.core.Types$MatchType.reduced$$anonfun$1(Types.scala:4861)
+	at dotty.tools.dotc.core.TypeComparer.inSubComparer(TypeComparer.scala:2646)
+	at dotty.tools.dotc.core.TypeComparer.tracked(TypeComparer.scala:2656)
+	at dotty.tools.dotc.core.TypeComparer$.tracked(TypeComparer.scala:2809)
+	at dotty.tools.dotc.core.Types$MatchType.reduced(Types.scala:4861)
+	at dotty.tools.dotc.core.Types$MatchType.tryNormalize(Types.scala:4810)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1$$anonfun$1(Types.scala:4174)
+	at dotty.tools.dotc.core.MatchTypeTrace$.recurseWith(MatchTypeTrace.scala:83)
+	at dotty.tools.dotc.core.Types$AppliedType.tryMatchAlias$1(Types.scala:4175)
+	at dotty.tools.dotc.core.Types$AppliedType.tryNormalize(Types.scala:4180)
+	at dotty.tools.dotc.core.Types$AppliedType.translucentSuperType(Types.scala:4153)
+	at dotty.tools.dotc.core.TypeErasure.dotty$tools$dotc$core$TypeErasure$$sigName(TypeErasure.scala:816)
+	at dotty.tools.dotc.core.TypeErasure$.sigName(TypeErasure.scala:204)
+	at dotty.tools.dotc.core.Signature$.apply(Signature.scala:169)
+	at dotty.tools.dotc.core.Types$MethodOrPoly.computeSignature$2(Types.scala:3525)
+	at dotty.tools.dotc.core.Types$MethodOrPoly.signature(Types.scala:3546)
+	at dotty.tools.dotc.core.Types$MethodOrPoly.computeSignature$2(Types.scala:3521)
+	at dotty.tools.dotc.core.Types$MethodOrPoly.signature(Types.scala:3546)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.signature(Denotations.scala:612)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.signature(Denotations.scala:602)
+	at dotty.tools.dotc.core.Symbols$Symbol.signature(Symbols.scala:199)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addOverloadIdx$1(SemanticdbSymbols.scala:117)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addDescriptor$1(SemanticdbSymbols.scala:138)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addSymName(SemanticdbSymbols.scala:142)
+	at scala.meta.internal.pc.SemanticdbSymbols$.symbolName(SemanticdbSymbols.scala:80)
+	at scala.meta.internal.pc.completions.CompletionsProvider.mkItem0$1(CompletionsProvider.scala:193)
+	at scala.meta.internal.pc.completions.CompletionsProvider.mkItem$1(CompletionsProvider.scala:224)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completionItems(CompletionsProvider.scala:291)
+	at scala.meta.internal.pc.completions.CompletionsProvider.$anonfun$1(CompletionsProvider.scala:86)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:87)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:103)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2022.06.27 13:31:56 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+Jun 27, 2022 1:32:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3556
+2022.06.27 13:32:06 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:32:15 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:32:25 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:33:13 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:33:30 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:33:43 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:34:22 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:35:01 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:35:06 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:35:23 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:35:53 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:36:06 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:36:17 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:36:46 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:37:41 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:38:00 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:38:02 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+Exception in thread "pool-3-thread-5" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+Exception in thread "pool-3-thread-6" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2022.06.27 13:38:04 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:51:03 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:51:17 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:51:26 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:51:38 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:52:18 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:52:26 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:52:56 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:53:32 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:53:41 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:53:43 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:54:11 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:54:36 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 13:55:00 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 16:18:12 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 16:19:03 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 16:20:06 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 16:20:15 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 16:20:27 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 16:20:35 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 16:32:52 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 16:36:29 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.06.27 16:47:09 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 16:47:09 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 16:47:09 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 16:52:46 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.06.27 16:52:48 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.06.27 16:55:29 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 17:37:19 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 17:37:25 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 17:37:39 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 17:37:56 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 17:38:00 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 17:38:05 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+Jun 27, 2022 5:41:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.06.27 17:43:15 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 17:43:40 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 17:43:49 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 17:44:43 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 17:52:42 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 18:13:13 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/zawody.scala[0m
+2022.06.27 18:17:45 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 18:43:47 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 18:45:04 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 18:45:13 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 18:46:04 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 18:46:31 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 18:47:43 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 18:48:04 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 18:48:25 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 18:49:37 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 18:50:26 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 18:59:11 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Ocena.scala[0m
+2022.06.27 18:59:17 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Utl.scala[0m
+2022.06.27 18:59:36 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 18:59:55 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 19:02:01 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 19:02:20 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 19:02:38 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 19:02:44 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 19:03:10 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 19:03:25 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 19:03:42 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 19:25:51 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 19:26:03 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 19:27:40 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 19:27:55 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/src/main/scala/Main.scala[0m
+2022.06.27 19:31:21 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 19:33:55 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+Jun 27, 2022 7:35:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9865
+Exception in thread "pool-3-thread-7" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2022.06.27 19:36:14 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 19:39:22 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+Exception in thread "pool-3-thread-8" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2022.06.27 19:40:11 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 19:40:33 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 19:41:21 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 19:41:32 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 19:43:08 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 19:44:43 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 19:45:34 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 19:45:35 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+Jun 27, 2022 7:45:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10459
+2022.06.27 19:46:14 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 19:46:16 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 19:46:51 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/zawody.scala[0m
+2022.06.27 19:48:52 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 19:48:54 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Utl.scala[0m
+2022.06.27 19:48:55 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/zawody.scala[0m
+2022.06.27 19:48:59 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 19:49:00 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Zawodnik.scala[0m
+2022.06.27 19:49:01 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/zawody.scala[0m
+2022.06.27 19:49:53 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Zawodnik.scala[0m
+2022.06.27 19:58:11 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 20:01:50 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 20:05:52 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Zawodnik.scala[0m
+2022.06.27 20:24:34 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 20:25:19 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 20:25:27 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 20:26:47 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 20:35:12 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 20:35:32 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 20:35:51 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 23:29:53 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 23:33:16 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 23:33:39 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 23:35:52 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 23:40:06 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 23:41:42 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 23:41:57 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 23:48:00 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 23:48:08 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+Jun 27, 2022 11:49:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12806
+2022.06.27 23:51:39 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 23:52:00 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 23:52:00 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 23:53:46 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 23:56:01 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 23:56:22 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala[0m
+2022.06.27 23:59:23 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.27 23:59:27 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:00:27 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:01:07 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:01:16 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:09:26 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:09:35 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:12:33 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:13:23 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:14:04 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:14:38 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:15:06 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:16:36 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:16:51 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:18:26 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:18:47 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:19:16 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:19:29 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:19:45 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:20:40 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:20:45 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:21:39 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:21:57 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:23:22 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:25:06 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:25:18 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+Jun 28, 2022 12:26:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14541
+2022.06.28 00:26:48 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:27:32 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:28:00 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:28:46 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:29:18 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:32:42 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:32:53 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:34:21 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:34:28 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:37:35 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:39:24 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:39:46 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:39:47 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:41:17 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:41:24 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:41:39 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:42:10 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:42:22 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:45:35 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:46:45 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:48:10 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:48:16 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:48:33 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m
+2022.06.28 00:48:44 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala[0m

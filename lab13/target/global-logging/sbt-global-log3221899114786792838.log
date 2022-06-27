@@ -1,0 +1,16 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(282989d5-0ed5-40cd-bfde-8ef2030fb924), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/target/scala-3.1.2/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E050] Type Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala:65:24 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m65 |[0m        .sortBy(el => el([31m1[0m)([31m0[0m))[34m//.take(21)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                      [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |        [33mmethod[0m [35mapply[0m in [33mtrait[0m [35mLinearSeqOps[0m does not take more parameters[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala:65:31 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m65 |[0m        .sortBy(el => el([31m1[0m)([31m0[0m))[34m//.take(21)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                               [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |ambiguous implicit arguments: both [33mobject[0m [35mByte[0m in [33mobject[0m [35mOrdering[0m and [33mobject[0m [35mChar[0m in [33mobject[0m [35mOrdering[0m match type Ordering[B] of parameter ord of [33mmethod[0m [35msortBy[0m in [33mtrait[0m [35mSeqOps[0m[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Jun 28, 2022 12:21:41 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

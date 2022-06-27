@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(fcf5cef3-51c8-4ccd-a212-a5e74d9bf0df), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/target/scala-3.1.2/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E023] Syntax Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala:73:71 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m73 |[0m  [33mdef[0m [36mfinał[0m([36mfinalisci[0m: [35mList[ActorRef][0m,[36mwynikiEliminacji[0m: [35mList[(ActorRef,List[Int,Int,Int], Int)][0m): [35mReceive[0m = {[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                                       [31m^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                     Too many type arguments for List[A][0m
+[0m[[0m[31merror[0m] [0m[0m   |                                     expected: [A][0m
+[0m[[0m[31merror[0m] [0m[0m   |                                     actual:   [[35mInt[0m, [35mInt[0m, [35mInt[0m][0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Jun 28, 2022 12:42:11 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

@@ -9,10 +9,13 @@ object Zawodnik {
 }
 
 class Zawodnik(o: Osoba) extends Actor {
+  import Zawodnik._
   override def preStart(): Unit = {
     println(s"${self.path}")
   }
   def receive: Receive = {
-    case msg => println(msg)
+    case Próba => {
+      sender() ! Grupa.Wynik(Utl.ocena())
+    }
   }
 }

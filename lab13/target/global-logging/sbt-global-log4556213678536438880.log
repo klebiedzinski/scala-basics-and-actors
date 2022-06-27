@@ -1,0 +1,19 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(3acfc9fe-c53e-4c9f-b6af-82b23024b0d8), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/target/scala-3.1.2/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Grupa.scala:35:38 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m35 |[0m       context.become(zbieranieWynikow(zawodnicy, wyniki+(sender1 -> ocena)))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                      [31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |missing argument for parameter grupa of [33mmethod[0m [35mzbieranieWynikow[0m in [33mclass[0m [35mGrupa[0m: (zawodnicy: List[akka.actor.ActorRef], wyniki: [0m
+[0m[[0m[31merror[0m] [0m[0m   |  Map[akka.actor.ActorRef, Option[jp1.akka.lab13.model.Ocena]][0m
+[0m[[0m[31merror[0m] [0m[0m   |, grupa: akka.actor.ActorRef): Grupa.this.Receive[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala:46:35 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m46 |[0m      context.become(wymagamWynikow(grupaEliminacyjna))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                     [31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                     Found:    Unit[0m
+[0m[[0m[31merror[0m] [0m[0m   |                     Required: akka.actor.Actor.Receive[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 5 s, completed Jun 27, 2022 11:40:28 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
