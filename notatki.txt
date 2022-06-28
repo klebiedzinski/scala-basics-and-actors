@@ -47,3 +47,85 @@ https://www.scala-lang.org/api/2.13.3/scala/collection/immutable/List.html
 
 val system = ActorSystem("system")
 val aktor = context.actorOf(Props[Zamek](), "zamek1")
+
+
+
+
+
+
+
+-----------ZADANIE1
+import akka.actor._
+
+object Zad1 {
+
+  case class Start(n: Int, m: Int, kumulator: ActorRef)
+  case class Wyniki(x: List[Float])
+  case object Generuj
+
+  class Manager extends Actor {
+    def receive: Receive = {
+      case Start(n: Int, m: Int, kumulator: ActorRef) => {
+        val pracownicy = (1 to n).map(x => context.actorOf(Props[Pracownik](), s"pracownik$x")).toList
+        pracownicy.foreach(x => x ! Generuj)
+        context.become(zbieranieWynikow(n,m,kumulator, List(), List(), pracownicy))
+      }
+    }
+    def zbieranieWynikow(n: Int, m: Int, kumulator: ActorRef, wspolrzedne: List[(Float,Float)], wyniki: List[Float], pracownicy: List[ActorRef]): Receive = {
+      case (x: Float, y: Float) => {
+        if (((wspolrzedne.length) < (n-1)) && ((wyniki.length) < (m))){
+          context.become(zbieranieWynikow(n, m, kumulator, (x,y) :: wspolrzedne, wyniki, pracownicy: List[ActorRef]))
+        } else if (wspolrzedne.length == n-1 && wyniki.length < m-1) {
+          val stosunek = ((x,y)::wspolrzedne).foldLeft(0)((akum, elem) => {
+          if (math.sqrt((elem._1*elem._1)+(elem._2*elem._2)) <= 1){
+            akum+1
+          } else {
+            akum
+          }
+        })/(n.toFloat)
+        pracownicy.foreach(x => x ! Generuj)
+        context.become(zbieranieWynikow(n, m, kumulator, List(), stosunek::wyniki, pracownicy: List[ActorRef]))
+        } else if (wspolrzedne.length == n-1 && wyniki.length == m-1){
+          val stosunek = ((x,y)::wspolrzedne).foldLeft(0)((akum, elem) => {
+          if (math.sqrt((elem._1*elem._1)+(elem._2*elem._2)) <= 1){
+            akum+1
+          } else {
+            akum
+          }
+        })/(n.toFloat)
+        kumulator ! Wyniki((stosunek::wyniki).map(x => x*4))
+        }
+      } 
+    }
+  }
+
+  class Pracownik extends Actor {
+    def receive: Receive = {
+      case Generuj => {
+        sender() ! (scala.util.Random.nextFloat().toFloat, scala.util.Random.nextFloat().toFloat)
+      }
+    }
+  }
+
+  class KumulatorWyniku extends Actor {
+    def receive: Receive = {
+      case Wyniki(x: List[Float]) => println(x.sum/x.length)
+    }
+  }
+
+  def main(args: Array[String]): Unit = {
+    val r = scala.util.Random
+    val system = ActorSystem("zad1")
+    val manager = system.actorOf(Props[Manager](), "manager")
+    val kumulator = system.actorOf(Props[KumulatorWyniku](), "kumulator")
+    manager ! Start(1000, 15, kumulator)
+    // r jest „generatorem”, którego należy użyć do generowania wartości
+    // losowych różnych typów (i zakresów) np.
+    // r.nextInt (zwraca pseudolosową liczbę całkowitą z zakresu od 0 do 1),
+    // r.nextInt(100) (zwraca pseudolosową liczbę całkowitą z zakresu od 0 do 99),
+    // r.nextFloat (zwraca pseudolosową liczbę zmiennoprzecinkową z zakresu od 0 do 1).
+
+    // wyliczenie pierwiastka z liczby 4: math.sqrt(4)
+  }
+
+}
