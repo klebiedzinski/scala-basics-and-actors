@@ -1,0 +1,48 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(76281d74-ecee-4ea9-a37f-f5c09cd3b1d9), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/target/scala-3.1.2/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala:90:26 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m90 |[0m        .map(el => (el([31m0[0m).imie,el([31m1[0m).nazwisko,List(el([31m1[0m).get.nota1,el([31m1[0m).get.nota2,el([31m1[0m).get.nota3),(el([31m1[0m).get.nota1+el([31m1[0m).get.nota2+el([31m1[0m).get.nota3).toInt))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                    [31m^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |value imie is not a member of akka.actor.ActorRef - did you mean ActorRef.wait?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala:90:37 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m90 |[0m        .map(el => (el([31m0[0m).imie,el([31m1[0m).nazwisko,List(el([31m1[0m).get.nota1,el([31m1[0m).get.nota2,el([31m1[0m).get.nota3),(el([31m1[0m).get.nota1+el([31m1[0m).get.nota2+el([31m1[0m).get.nota3).toInt))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                               [31m^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |    value nazwisko is not a member of Option[jp1.akka.lab13.model.Ocena][0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E050] Type Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala:91:29 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m91 |[0m        .sortBy(a => (a._3,a._2([31m0[0m),a._2([31m1[0m),a._2([31m2[0m))).reverse[0m
+[0m[[0m[31merror[0m] [0m[0m   |                           [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                      [33mgetter[0m [35m_2[0m in [33mclass[0m [35mTuple4[0m does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E050] Type Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala:91:37 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m91 |[0m        .sortBy(a => (a._3,a._2([31m0[0m),a._2([31m1[0m),a._2([31m2[0m))).reverse[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                   [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                      [33mgetter[0m [35m_2[0m in [33mclass[0m [35mTuple4[0m does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E050] Type Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala:91:45 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m91 |[0m        .sortBy(a => (a._3,a._2([31m0[0m),a._2([31m1[0m),a._2([31m2[0m))).reverse[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                           [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                      [33mgetter[0m [35m_2[0m in [33mclass[0m [35mTuple4[0m does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala:91:52 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m91 |[0m        .sortBy(a => (a._3,a._2([31m0[0m),a._2([31m1[0m),a._2([31m2[0m))).reverse[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                    [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |ambiguous implicit arguments of type Ordering[((upper)T1, (upper)T2, (upper)T3, (upper)T4)] found for parameter ord of [33mmethod[0m [35msortBy[0m in [33mtrait[0m [35mSeqOps[0m.[0m
+[0m[[0m[31merror[0m] [0m[0m   |I found:[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m   |    scala.math.Ordering.Tuple4[[35m(upper)T1[0m, [35m(upper)T2[0m, [35m(upper)T3[0m, [35m(upper)T4[0m]([0m
+[0m[[0m[31merror[0m] [0m[0m   |      scala.math.Ordering.Iterable[[35mT[0m](scala.math.Ordering.Int)[0m
+[0m[[0m[31merror[0m] [0m[0m   |    , [0m
+[0m[[0m[31merror[0m] [0m[0m   |      /* ambiguous: both [33mobject[0m [35mByte[0m in [33mobject[0m [35mOrdering[0m and [33mobject[0m [35mDeprecatedFloatOrdering[0m in [33mobject[0m [35mOrdering[0m match type Ordering[(upper)T2] */[0m
+[0m[[0m[31merror[0m] [0m[0m   |        summon[Ordering[(upper)T2]][0m
+[0m[[0m[31merror[0m] [0m[0m   |    , [0m
+[0m[[0m[31merror[0m] [0m[0m   |      /* ambiguous: both [33mobject[0m [35mByte[0m in [33mobject[0m [35mOrdering[0m and [33mobject[0m [35mDeprecatedFloatOrdering[0m in [33mobject[0m [35mOrdering[0m match type Ordering[(upper)T3] */[0m
+[0m[[0m[31merror[0m] [0m[0m   |        summon[Ordering[(upper)T3]][0m
+[0m[[0m[31merror[0m] [0m[0m   |    , [0m
+[0m[[0m[31merror[0m] [0m[0m   |      /* ambiguous: both [33mobject[0m [35mByte[0m in [33mobject[0m [35mOrdering[0m and [33mobject[0m [35mDeprecatedFloatOrdering[0m in [33mobject[0m [35mOrdering[0m match type Ordering[(upper)T4] */[0m
+[0m[[0m[31merror[0m] [0m[0m   |        summon[Ordering[(upper)T4]][0m
+[0m[[0m[31merror[0m] [0m[0m   |    )[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m   |But both [33mobject[0m [35mByte[0m in [33mobject[0m [35mOrdering[0m and [33mobject[0m [35mDeprecatedFloatOrdering[0m in [33mobject[0m [35mOrdering[0m match type Ordering[(upper)T2].[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 7 s, completed Jun 28, 2022 10:02:18 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

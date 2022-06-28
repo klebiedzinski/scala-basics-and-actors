@@ -86,11 +86,13 @@ class Organizator extends Actor {
   def odbieramWynikiFinalu(wynikiEliminacji: List[(ActorRef,List[Int], Int)]): Receive = {
     case Wyniki(w) => {
       sender() ! Grupa.Koniec
-      val wynikFinalu = w.toList
-        .map(el => (el(0),List(el(1).get.nota1,el(1).get.nota2,el(1).get.nota3),(el(1).get.nota1+el(1).get.nota2+el(1).get.nota3).toInt))
+      val wynikiFinalu = w.toList
+        .map(el => (s"${el(0).imie},${el(1).nazwisko}",List(el(1).get.nota1,el(1).get.nota2,el(1).get.nota3),(el(1).get.nota1+el(1).get.nota2+el(1).get.nota3).toInt))
         .sortBy(a => (a._3,a._2(0),a._2(1),a._2(2))).reverse
-      
-        println(wynikFinalu)
+
+        // val wynikiKoncowe = wynikFinalu++wynikiEliminacji.groupBy(_._1)
+        println(wynikiFinalu) //(Actor[akka://system/user/organizator/Candi-Hickle#469536708],List(17, 20, 17),54)
+        println(wynikiEliminacji)//(Actor[akka://system/user/organizator/Stan-Anderson#-2118875990],List(20, 18, 10),48)
     }
   }
 }

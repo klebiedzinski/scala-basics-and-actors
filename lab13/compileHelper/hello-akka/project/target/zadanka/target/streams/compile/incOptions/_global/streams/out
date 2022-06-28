@@ -1,0 +1,31 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/project/target/zadanka/target/scala-2.13/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad1$Init.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad1$KumulatorWyniku.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad1$Pracownik.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad1$Init$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad1$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad1$Manager.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad1$Manager$$anonfun$receive$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad1$Init.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad1$KumulatorWyniku.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad1$Pracownik.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad1$Init$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad1$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad1$Manager.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad1$Manager$$anonfun$receive$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRolling back changes to class files.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRestoring class files: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad1$Init.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad1$Manager.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad1$Init$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad1$KumulatorWyniku.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad1$Manager$$anonfun$receive$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad1$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Zad1$Pracownik.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/compileHelper/hello-akka/project/target/zadanka/target/scala-2.13/classes.bak[0m

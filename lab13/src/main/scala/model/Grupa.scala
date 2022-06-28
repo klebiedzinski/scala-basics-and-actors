@@ -33,7 +33,7 @@ class Grupa(zawodnicy: List[ActorRef]) extends Actor {
     case Wynik(ocena) => {
        val sender1 = sender()
        context.become(zbieranieWynikow(zawodnicy, wyniki+(sender1 -> ocena), organizator))
-       println(wyniki.size+1 == zawodnicy.size)
+      
        if (wyniki.size+1 == zawodnicy.size) {
         println("grupa moze dac wynik")
         context.become(mogeDacWynik(wyniki))

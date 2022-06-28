@@ -1,0 +1,12 @@
+[0m2021.06.11 14:45:04 INFO  Started: Metals version 0.10.4 in workspace '/home/wiesiek/work/JP1/kol/src/main/scala' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.11 14:45:06 INFO  time: initialize in 1.15s[0m
+[0m2021.06.11 14:45:06 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.11 14:45:06 WARN  no build tool detected in workspace '/home/wiesiek/work/JP1/kol/src/main/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.06.11 14:45:06 WARN  no build target for: /home/wiesiek/work/JP1/kol/src/main/scala/Zad1.scala[0m
+[0m2021.06.11 14:45:10 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.06.11 14:45:12 INFO  time: code lens generation in 4.93s[0m
+[0m2021.06.11 14:45:12 INFO  time: code lens generation in 5.51s[0m
+[0m2021.06.11 14:45:34 WARN  no build target for: /home/wiesiek/work/JP1/kol/src/main/scala/Zad1.scala[0m
+[0m2021.06.11 14:45:36 WARN  no build target for: /home/wiesiek/work/JP1/kol/src/main/scala/Zad2.scala[0m
+[0m2021.06.11 14:45:52 WARN  no build target for: /home/wiesiek/work/JP1/kol/src/main/scala/Zad2.scala[0m
+[0m2021.06.11 14:45:56 INFO  shutting down Metals[0m

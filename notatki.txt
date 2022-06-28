@@ -43,3 +43,7 @@ def isPrime(i :Int) : Boolean = {
 
 
 https://www.scala-lang.org/api/2.13.3/scala/collection/immutable/List.html
+
+
+val system = ActorSystem("system")
+val aktor = context.actorOf(Props[Zamek](), "zamek1")

@@ -1,7 +1,9 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E023] Syntax Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala:73:71 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m73 |[0m  [33mdef[0m [36mfinał[0m([36mfinalisci[0m: [35mList[ActorRef][0m,[36mwynikiEliminacji[0m: [35mList[(ActorRef,List[Int,Int,Int], Int)][0m): [35mReceive[0m = {[0m
-[0m[[0m[31merror[0m] [0m[0m   |                                                                       [31m^^^^^^^^^^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |                                     Too many type arguments for List[A][0m
-[0m[[0m[31merror[0m] [0m[0m   |                                     expected: [A][0m
-[0m[[0m[31merror[0m] [0m[0m   |                                     actual:   [[35mInt[0m, [35mInt[0m, [35mInt[0m][0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala:90:30 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m90 |[0m        .map(el => ([31ms"[0m${el([31m0[0m).imie}[31m,[0m${el([31m1[0m).nazwisko}[31m"[0m,List(el([31m1[0m).get.nota1,el([31m1[0m).get.nota2,el([31m1[0m).get.nota3),(el([31m1[0m).get.nota1+el([31m1[0m).get.nota2+el([31m1[0m).get.nota3).toInt))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                        [31m^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |value imie is not a member of akka.actor.ActorRef - did you mean ActorRef.wait?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /home/klebiedzinski/JP1/lebiedzinski-karol/lab13/src/main/scala/model/Organizator.scala:90:44 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m90 |[0m        .map(el => ([31ms"[0m${el([31m0[0m).imie}[31m,[0m${el([31m1[0m).nazwisko}[31m"[0m,List(el([31m1[0m).get.nota1,el([31m1[0m).get.nota2,el([31m1[0m).get.nota3),(el([31m1[0m).get.nota1+el([31m1[0m).get.nota2+el([31m1[0m).get.nota3).toInt))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                      [31m^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |    value nazwisko is not a member of Option[jp1.akka.lab13.model.Ocena][0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
