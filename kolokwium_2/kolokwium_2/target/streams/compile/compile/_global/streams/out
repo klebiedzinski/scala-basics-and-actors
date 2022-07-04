@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E134] Type Error: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_2/kolokwium_2/src/main/scala/aktorzy/Kierowca.scala:34:16 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m34 |[0m      [33mval[0m [36ms[0m = dt*prędkość[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m              ^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m None of the overloaded alternatives of [33mmethod[0m [35m*[0m in [33mclass[0m [35mInt[0m with types[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  (x: Double): Double[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  (x: Float): Float[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  (x: Long): Long[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  (x: Int): Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  (x: Char): Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  (x: Short): Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  (x: Byte): Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m match arguments ((prędkość : Option[Int]))[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
