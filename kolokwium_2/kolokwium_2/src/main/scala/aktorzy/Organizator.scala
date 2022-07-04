@@ -18,7 +18,7 @@ class Organizator extends Actor with ActorLogging {
   }
   def ustawiamWarsztatIKierowcow(mc: Int ): Receive = {
     case Init(liczbaKierowcow) => {
-      val dt = 60 //  !!!!!!! dt !!!!!!!!
+      val dt = 1 //  !!!!!!! dt !!!!!!!!
       val warsztat = context.actorOf(Props[Warsztat](), "warsztat")
       warsztat ! Warsztat.Init
       val kierowcy = List.range(1,liczbaKierowcow+1).map(p => context.actorOf(Props[Kierowca](), s"kierowca_$p"))
@@ -44,10 +44,20 @@ class Organizator extends Actor with ActorLogging {
     case PrzejechanaTrasa(liczbaKm) => {
       context.become(odbieramWyniki(kierowcy,wyniki + (sender() -> liczbaKm)))
       if (wyniki.size+1 == kierowcy.size) {
-        println(wyniki.toList.sortBy(el => el._2).reverse.zipWithIndex.map(el => (el._2+1,el._1._1.path.name,el._1._2)))
+        val result = wyniki.toList.sortBy(el => el._2).reverse.zipWithIndex
+          .map(el => (el._2+1.toInt,el._1._1.path.name.toString,el._1._2.toInt))
+
+        println(result)
+        val finalRes = result.foldLeft(List.empty[(Int, String, Int)])((lista, elem) => {
+              lista match {
+                case Nil => List((elem._1, elem._2, elem._3))
+                case h :: t if h._3 == elem._3.toInt => (h._1, elem._2, elem._3) :: lista
+                case _ => (elem._1, elem._2, elem._3) :: lista
+              }
+            })
+        println(finalRes.reverse)
         context.system.terminate()
       }
     }
   }
 }
-
