@@ -1,6 +1,52 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /home/LABPK/klebiedzinski/Pulpit/JP1/kolokwium_1/src/main/scala/Zad01.scala:30:4 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m30 |[0m    input[0m
-[0m[[0m[31merror[0m] [0m[0m   |    [31m^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |    Found:    [1m[31m([0m[1m[31minput[0m[1m[31m [0m[1m[31m:[0m[1m[31m [0mList[(Int, Int[1m[31m,[0m[1m[31m [0m[1m[31mInt[0m)][1m[31m)[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |    Required: List[(Int, Int)][0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/src/main/scala/Zad02.scala:19:19 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m19 |[0m    [33mcase[0m List() => akum[0m
+[0m[[0m[31merror[0m] [0m[0m   |                   [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                   Found:    (akum : List[A])[0m
+[0m[[0m[31merror[0m] [0m[0m   |                   Required: List[List[A]][0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/src/main/scala/Zad02.scala:21:28 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m21 |[0m      [33mif[0m (akum.size == len) akum[0m
+[0m[[0m[31merror[0m] [0m[0m   |                            [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                            Found:    (akum : List[A])[0m
+[0m[[0m[31merror[0m] [0m[0m   |                            Required: List[List[A]][0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/src/main/scala/Zad02.scala:28:30 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m28 |[0m      [33mcase[0m podLista(list,len) ++ tail => {[0m
+[0m[[0m[31merror[0m] [0m[0m   |                              [31m^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                              Not found: ++[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/src/main/scala/Zad02.scala:28:11 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m28 |[0m      [33mcase[0m podLista(list,len) ++ tail => {[0m
+[0m[[0m[31merror[0m] [0m[0m   |           [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |           Not found: podLista[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/src/main/scala/Zad02.scala:29:17 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m29 |[0m        foo(list.drop(shift))(len,shift,akum:+podLista(list,len))[0m
+[0m[[0m[31merror[0m] [0m[0m   |            [31m^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |            value drop is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/src/main/scala/Zad02.scala:29:30 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m29 |[0m        foo(list.drop(shift))(len,shift,akum:+podLista(list,len))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                              [31m^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                              Found:    (len : Any)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                              Required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/src/main/scala/Zad02.scala:29:55 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m29 |[0m        foo(list.drop(shift))(len,shift,akum:+podLista(list,len))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                       [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                  Found:    (list : Any)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                  Required: List[Any][0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/src/main/scala/Zad02.scala:29:60 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m29 |[0m        foo(list.drop(shift))(len,shift,akum:+podLista(list,len))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                            [31m^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                   Found:    (len : Any)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                   Required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/src/main/scala/Zad02.scala:31:11 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m31 |[0m      [33mcase[0m podLista(list,len) => akum:+podLista(list,len)[0m
+[0m[[0m[31merror[0m] [0m[0m   |           [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |           Not found: podLista[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/src/main/scala/Zad02.scala:31:48 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m31 |[0m      [33mcase[0m podLista(list,len) => akum:+podLista(list,len)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                Found:    (list : Any)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                Required: List[Any][0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/src/main/scala/Zad02.scala:31:53 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m31 |[0m      [33mcase[0m podLista(list,len) => akum:+podLista(list,len)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                     [31m^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                   Found:    (len : Any)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                   Required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m11 errors found[0m

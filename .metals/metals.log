@@ -7495,3 +7495,714 @@ WARNING: Unmatched cancel notification for request id 5114
 2022.07.06 17:40:07 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/tailrec/src/main/scala/Main.scala[0m
 2022.07.06 17:40:11 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/tailrec/src/main/scala/Main.scala[0m
 2022.07.06 17:40:30 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/tailrec/src/main/scala/Main.scala[0m
+2022.07.06 17:50:20 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/tailrec/src/main/scala/kolokwium.scala[0m
+2022.07.06 17:50:20 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_2/kolokwium_2/src/main/scala/aktorzy/Kierowca.scala[0m
+2022.07.06 17:50:43 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 17:51:31 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 17:52:08 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 17:52:44 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 17:52:57 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 17:53:15 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 17:53:32 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 17:53:37 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:01:25 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:02:13 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:02:23 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:02:51 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab06/src/main/scala/Main.scala[0m
+2022.07.06 18:03:09 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+Jul 06, 2022 6:03:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6772
+2022.07.06 18:03:16 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:03:47 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:03:58 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:04:25 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:04:30 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:04:32 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:04:43 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:04:49 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:05:02 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:05:10 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:05:10 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:05:38 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:05:54 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:06:12 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:09:11 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:09:27 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:09:37 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:09:45 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:10:09 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:10:09 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:10:18 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:10:34 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:10:39 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:10:56 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+Jul 06, 2022 6:11:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7859
+Exception in thread "pool-3-thread-4" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:196)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+Exception in thread "pool-3-thread-5" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:196)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2022.07.06 18:12:04 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:12:14 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:12:22 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:12:29 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:12:54 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:13:10 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:13:17 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+Jul 06, 2022 6:13:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8148
+2022.07.06 18:13:54 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:14:06 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:14:19 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:14:25 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+Exception in thread "pool-3-thread-6" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:196)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2022.07.06 18:14:33 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:14:38 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:14:41 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:14:51 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:15:15 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:15:24 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:15:34 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:15:41 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:16:06 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:16:16 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:16:34 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:16:41 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:17:15 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:17:21 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:17:45 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:17:48 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:17:56 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:18:21 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:18:48 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:18:49 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:19:29 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:19:36 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:20:04 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:20:33 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:21:00 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:21:04 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:21:36 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:21:44 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala[0m
+2022.07.06 18:42:52 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab09/src/main/scala/Main.scala[0m
+2022.07.06 18:43:12 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3 (1).scala[0m
+2022.07.06 18:43:17 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:43:19 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4 (2).scala[0m
+2022.07.06 18:43:23 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 18:43:24 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad5 (1).scala[0m
+2022.07.06 18:43:28 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad5.scala[0m
+2022.07.06 18:43:41 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+Jul 06, 2022 6:44:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Toplevel definition subseq is defined in
+  /home/klebiedzinski/JP1/lebiedzinski-karol/lab06/src/main/scala/Main.scala
+and also in
+  /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala
+One of these files should be removed from the classpath.
+dotty.tools.dotc.core.TypeError: Toplevel definition subseq is defined in
+  /home/klebiedzinski/JP1/lebiedzinski-karol/lab06/src/main/scala/Main.scala
+and also in
+  /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/Main.scala
+One of these files should be removed from the classpath.
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.dropStale$1(SymDenotations.scala:2431)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.recur$5(SymDenotations.scala:2395)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.computeMembersNamed(SymDenotations.scala:2451)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.membersNamed(SymDenotations.scala:2010)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.findMember(SymDenotations.scala:2061)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:683)
+	at dotty.tools.dotc.core.Types$Type.goThis$1(Types.scala:808)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:700)
+	at dotty.tools.dotc.core.Types$Type.findMember(Types.scala:876)
+	at dotty.tools.dotc.core.Types$Type.memberBasedOnFlags(Types.scala:666)
+	at dotty.tools.dotc.core.Types$Type.member(Types.scala:650)
+	at dotty.tools.dotc.core.Types$Type.allMembers$$anonfun$1(Types.scala:1017)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:15)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:10)
+	at dotty.tools.dotc.core.Types$Type.memberDenots$$anonfun$1(Types.scala:922)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.BitmapIndexedSetNode.foreach(HashSet.scala:937)
+	at scala.collection.immutable.HashSet.foreach(HashSet.scala:944)
+	at dotty.tools.dotc.core.Types$Type.memberDenots(Types.scala:922)
+	at dotty.tools.dotc.core.Types$Type.allMembers(Types.scala:1017)
+	at scala.meta.internal.pc.IndexedContext$.accesibleMembers$1(IndexedContext.scala:133)
+	at scala.meta.internal.pc.IndexedContext$.scala$meta$internal$pc$IndexedContext$$$extractNames(IndexedContext.scala:188)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:83)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:56)
+
+2022.07.06 18:44:24 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:44:37 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:47:35 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:47:35 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:47:39 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:47:48 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:47:54 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:47:59 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:48:25 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab06/src/main/scala/Main.scala[0m
+2022.07.06 18:48:30 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab09/src/main/scala/Main.scala[0m
+2022.07.06 18:48:52 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:49:12 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:49:23 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:50:06 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:51:05 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:51:33 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:52:16 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:52:33 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:52:54 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:54:45 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:54:50 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:55:40 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:55:45 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:56:13 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:56:57 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:57:05 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:57:18 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:57:27 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:57:32 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:57:53 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+Exception in thread "pool-3-thread-7" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:196)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2022.07.06 18:58:08 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:58:27 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:58:30 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:58:54 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala[0m
+2022.07.06 18:59:02 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 18:59:10 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad5.scala[0m
+2022.07.06 18:59:15 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+Jul 06, 2022 7:02:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Toplevel definition zad3 is defined in
+  /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala
+and also in
+  /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala
+One of these files should be removed from the classpath.
+dotty.tools.dotc.core.TypeError: Toplevel definition zad3 is defined in
+  /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala
+and also in
+  /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad3.scala
+One of these files should be removed from the classpath.
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.dropStale$1(SymDenotations.scala:2431)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.recur$5(SymDenotations.scala:2395)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.computeMembersNamed(SymDenotations.scala:2451)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.membersNamed(SymDenotations.scala:2010)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.findMember(SymDenotations.scala:2061)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:683)
+	at dotty.tools.dotc.core.Types$Type.goThis$1(Types.scala:808)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:700)
+	at dotty.tools.dotc.core.Types$Type.findMember(Types.scala:876)
+	at dotty.tools.dotc.core.Types$Type.memberBasedOnFlags(Types.scala:666)
+	at dotty.tools.dotc.core.Types$Type.member(Types.scala:650)
+	at dotty.tools.dotc.core.Types$Type.allMembers$$anonfun$1(Types.scala:1017)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:15)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:10)
+	at dotty.tools.dotc.core.Types$Type.memberDenots$$anonfun$1(Types.scala:922)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.HashSet.foreach(HashSet.scala:937)
+	at dotty.tools.dotc.core.Types$Type.memberDenots(Types.scala:922)
+	at dotty.tools.dotc.core.Types$Type.allMembers(Types.scala:1017)
+	at scala.meta.internal.pc.IndexedContext$.accesibleMembers$1(IndexedContext.scala:133)
+	at scala.meta.internal.pc.IndexedContext$.scala$meta$internal$pc$IndexedContext$$$extractNames(IndexedContext.scala:188)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:83)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:56)
+
+2022.07.06 19:02:38 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:02:42 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:02:55 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:03:27 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:03:37 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:03:48 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:05:18 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:05:27 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:05:39 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:05:49 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+Exception in thread "pool-3-thread-8" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:196)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2022.07.06 19:05:59 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+Jul 06, 2022 7:06:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11474
+2022.07.06 19:06:08 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:07:50 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:07:58 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:08:04 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:08:45 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:09:41 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:09:51 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:12:39 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:12:46 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:12:55 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:13:13 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:13:21 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:13:26 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:13:47 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:14:38 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:16:27 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:16:39 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:17:52 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala[0m
+2022.07.06 19:18:12 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:18:14 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:19:01 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:19:07 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:19:25 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:19:39 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:19:46 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:20:03 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:20:13 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:21:22 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:21:26 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:21:45 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:21:50 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+Exception in thread "pool-3-thread-9" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:196)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2022.07.06 19:22:00 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:22:21 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:22:36 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:23:31 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:23:36 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:23:41 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:24:14 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:24:21 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:24:46 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:24:51 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:24:51 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:25:35 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:25:38 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:26:36 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:35:03 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+Jul 06, 2022 7:45:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14642
+2022.07.06 19:51:01 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:51:48 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:54:32 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:57:10 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:57:10 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:57:10 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 19:57:10 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 20:06:34 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 20:06:37 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 20:07:40 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 20:08:02 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 20:08:26 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 20:08:33 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 20:09:14 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 20:09:22 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala[0m
+2022.07.06 20:12:45 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad5.scala[0m
+Jul 06, 2022 8:13:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Toplevel definition zad4 is defined in
+  /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala
+and also in
+  /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala
+One of these files should be removed from the classpath.
+dotty.tools.dotc.core.TypeError: Toplevel definition zad4 is defined in
+  /home/klebiedzinski/JP1/lebiedzinski-karol/labyDoKolokwium/lab03/k/src/main/scala/z4.scala
+and also in
+  /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad4.scala
+One of these files should be removed from the classpath.
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.dropStale$1(SymDenotations.scala:2431)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.recur$5(SymDenotations.scala:2395)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.computeMembersNamed(SymDenotations.scala:2451)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.membersNamed(SymDenotations.scala:2010)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.findMember(SymDenotations.scala:2061)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:683)
+	at dotty.tools.dotc.core.Types$Type.goThis$1(Types.scala:808)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:700)
+	at dotty.tools.dotc.core.Types$Type.findMember(Types.scala:876)
+	at dotty.tools.dotc.core.Types$Type.memberBasedOnFlags(Types.scala:666)
+	at dotty.tools.dotc.core.Types$Type.member(Types.scala:650)
+	at dotty.tools.dotc.core.Types$Type.allMembers$$anonfun$1(Types.scala:1017)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:15)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:10)
+	at dotty.tools.dotc.core.Types$Type.memberDenots$$anonfun$1(Types.scala:922)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.BitmapIndexedSetNode.foreach(HashSet.scala:937)
+	at scala.collection.immutable.HashSet.foreach(HashSet.scala:944)
+	at dotty.tools.dotc.core.Types$Type.memberDenots(Types.scala:922)
+	at dotty.tools.dotc.core.Types$Type.allMembers(Types.scala:1017)
+	at scala.meta.internal.pc.IndexedContext$.accesibleMembers$1(IndexedContext.scala:133)
+	at scala.meta.internal.pc.IndexedContext$.scala$meta$internal$pc$IndexedContext$$$extractNames(IndexedContext.scala:188)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:83)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:56)
+
+Jul 06, 2022 8:13:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16216
+2022.07.06 20:13:42 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad5.scala[0m
+2022.07.06 20:46:38 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/src/main/scala/Zad01.scala[0m
+2022.07.06 20:47:05 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 20:49:10 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 20:49:15 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 20:49:29 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 20:49:31 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 20:49:53 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 20:49:57 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 20:50:10 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad5.scala[0m
+2022.07.06 20:50:14 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad5.scala[0m
+2022.07.06 20:50:19 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/zad5.scala[0m
+2022.07.06 20:50:25 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 20:50:45 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 20:51:25 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 20:51:33 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 20:51:39 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 20:52:57 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 20:54:30 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 20:54:54 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 20:55:11 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 20:55:15 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 20:56:02 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 20:56:14 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 20:56:29 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 20:56:42 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 20:57:27 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 20:58:44 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 20:59:01 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 20:59:22 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 20:59:37 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 21:01:14 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 21:01:39 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 21:02:23 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+Jul 06, 2022 9:02:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17825
+2022.07.06 21:02:29 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 21:02:55 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+Jul 06, 2022 9:02:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17914
+2022.07.06 21:03:28 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 21:03:44 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 21:06:45 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 21:06:45 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 21:06:56 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 21:08:36 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+Jul 06, 2022 9:09:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19394
+2022.07.06 21:11:03 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 21:11:42 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 21:11:42 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 21:11:53 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 21:12:38 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 21:12:53 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 21:14:17 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+Exception in thread "pool-3-thread-10" java.lang.Error: java.lang.InterruptedException
+2022.07.06 21:14:20 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:196)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2022.07.06 21:14:29 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 21:14:53 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 21:15:06 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 21:22:03 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 21:23:47 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 21:28:03 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 21:28:15 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 21:28:54 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/metody/src/main/scala/kolokwiumzad1.scala[0m
+2022.07.06 21:51:24 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 21:52:16 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 21:54:49 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 21:58:15 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 21:58:45 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 21:59:01 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:00:30 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:00:57 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:01:32 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+Jul 06, 2022 10:01:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22091
+2022.07.06 22:02:51 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:04:43 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:05:26 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+Jul 06, 2022 10:07:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23165
+Jul 06, 2022 10:07:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23201
+2022.07.06 22:07:56 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:08:09 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:08:21 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:08:50 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:10:18 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_2/kolokwium_2/src/main/scala/LeMans.scala[0m
+2022.07.06 22:10:22 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_2/kolokwium_2/src/main/scala/aktorzy/Warsztat.scala[0m
+Jul 06, 2022 10:10:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23484
+2022.07.06 22:10:28 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_2/kolokwium_2/src/main/scala/aktorzy/Warsztat.scala[0m
+2022.07.06 22:11:23 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+Jul 06, 2022 10:13:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23832
+2022.07.06 22:14:00 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:14:58 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+Jul 06, 2022 10:15:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24128
+2022.07.06 22:15:30 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+Exception in thread "pool-3-thread-11" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:196)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2022.07.06 22:16:29 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:16:47 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:16:59 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:17:07 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:18:07 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:19:00 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+Jul 06, 2022 10:19:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24584
+2022.07.06 22:19:23 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:19:23 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:19:40 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:20:11 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:20:11 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:20:39 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:20:58 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:21:23 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:21:29 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:22:43 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:22:56 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:23:13 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:23:14 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:23:23 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:23:28 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:23:47 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:24:10 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:24:21 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:24:52 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:27:03 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:27:18 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:28:11 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+Jul 06, 2022 10:29:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Toplevel definition bitwa is defined in
+  /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/src/main/scala/Jabberwocky.scala
+and also in
+  /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala
+One of these files should be removed from the classpath.
+dotty.tools.dotc.core.TypeError: Toplevel definition bitwa is defined in
+  /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/src/main/scala/Jabberwocky.scala
+and also in
+  /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala
+One of these files should be removed from the classpath.
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.dropStale$1(SymDenotations.scala:2431)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.recur$5(SymDenotations.scala:2395)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.computeMembersNamed(SymDenotations.scala:2451)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.membersNamed(SymDenotations.scala:2010)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.findMember(SymDenotations.scala:2061)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:683)
+	at dotty.tools.dotc.core.Types$Type.goThis$1(Types.scala:808)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:700)
+	at dotty.tools.dotc.core.Types$Type.findMember(Types.scala:876)
+	at dotty.tools.dotc.core.Types$Type.memberBasedOnFlags(Types.scala:666)
+	at dotty.tools.dotc.core.Types$Type.member(Types.scala:650)
+	at dotty.tools.dotc.core.Types$Type.allMembers$$anonfun$1(Types.scala:1017)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:15)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:10)
+	at dotty.tools.dotc.core.Types$Type.memberDenots$$anonfun$1(Types.scala:922)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.BitmapIndexedSetNode.foreach(HashSet.scala:937)
+	at scala.collection.immutable.HashSet.foreach(HashSet.scala:944)
+	at dotty.tools.dotc.core.Types$Type.memberDenots(Types.scala:922)
+	at dotty.tools.dotc.core.Types$Type.allMembers(Types.scala:1017)
+	at scala.meta.internal.pc.IndexedContext$.accesibleMembers$1(IndexedContext.scala:133)
+	at scala.meta.internal.pc.IndexedContext$.scala$meta$internal$pc$IndexedContext$$$extractNames(IndexedContext.scala:188)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:83)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:56)
+
+2022.07.06 22:29:30 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:29:45 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:30:17 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:31:04 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:31:16 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:31:33 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+Exception in thread "pool-3-thread-12" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:196)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+Jul 06, 2022 10:31:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25548
+2022.07.06 22:31:43 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:32:05 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:32:14 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:32:32 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:33:09 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:33:11 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 22:35:25 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala[0m
+2022.07.06 23:25:05 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/tailrec/src/main/scala/Zad02 (1).scala[0m
+Jul 06, 2022 11:25:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Toplevel definition bitwa is defined in
+  /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/src/main/scala/Jabberwocky.scala
+and also in
+  /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala
+One of these files should be removed from the classpath.
+dotty.tools.dotc.core.TypeError: Toplevel definition bitwa is defined in
+  /home/klebiedzinski/JP1/lebiedzinski-karol/lab12/src/main/scala/Jabberwocky.scala
+and also in
+  /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala
+One of these files should be removed from the classpath.
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.dropStale$1(SymDenotations.scala:2431)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.recur$5(SymDenotations.scala:2395)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.computeMembersNamed(SymDenotations.scala:2451)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.membersNamed(SymDenotations.scala:2010)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.findMember(SymDenotations.scala:2061)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:683)
+	at dotty.tools.dotc.core.Types$Type.goThis$1(Types.scala:808)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:700)
+	at dotty.tools.dotc.core.Types$Type.findMember(Types.scala:876)
+	at dotty.tools.dotc.core.Types$Type.memberBasedOnFlags(Types.scala:666)
+	at dotty.tools.dotc.core.Types$Type.member(Types.scala:650)
+	at dotty.tools.dotc.core.Types$Type.allMembers$$anonfun$1(Types.scala:1017)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:15)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:10)
+	at dotty.tools.dotc.core.Types$Type.memberDenots$$anonfun$1(Types.scala:922)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.BitmapIndexedSetNode.foreach(HashSet.scala:937)
+	at scala.collection.immutable.HashSet.foreach(HashSet.scala:944)
+	at dotty.tools.dotc.core.Types$Type.memberDenots(Types.scala:922)
+	at dotty.tools.dotc.core.Types$Type.allMembers(Types.scala:1017)
+	at scala.meta.internal.pc.IndexedContext$.accesibleMembers$1(IndexedContext.scala:133)
+	at scala.meta.internal.pc.IndexedContext$.scala$meta$internal$pc$IndexedContext$$$extractNames(IndexedContext.scala:188)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:83)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:82)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:56)
+
+2022.07.06 23:25:45 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/tailrec/src/main/scala/Zad02 (1).scala[0m
+2022.07.06 23:25:52 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/tailrec/src/main/scala/zad2.scala[0m
+2022.07.06 23:25:55 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/tailrec/src/main/scala/Zad02.scala[0m
+2022.07.06 23:25:57 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/tailrec/src/main/scala/Zad02.scala[0m
+2022.07.06 23:56:53 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/tailrec/src/main/scala/Zad02 (2).scala[0m
+2022.07.06 23:57:13 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/tailrec/src/main/scala/Zad02 (1).scala[0m
+2022.07.06 23:57:15 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/tailrec/src/main/scala/zad2.scala[0m
+2022.07.06 23:57:20 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/tailrec/src/main/scala/Zad02.scala[0m
+2022.07.06 23:57:28 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/tailrec/src/main/scala/zad2.scala[0m
+2022.07.07 00:00:40 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/src/main/scala/Zad02.scala[0m
+2022.07.07 00:00:41 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/src/main/scala/Zad02.scala[0m
+2022.07.07 00:01:11 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/src/main/scala/Zad02.scala[0m
+Exception in thread "pool-3-thread-13" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:196)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2022.07.07 00:08:03 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/src/main/scala/Zad02.scala[0m
+2022.07.07 00:09:30 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/src/main/scala/Zad02.scala[0m
+2022.07.07 00:17:38 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/src/main/scala/Zad02.scala[0m
+2022.07.07 00:18:46 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/src/main/scala/Zad02.scala[0m
+2022.07.07 00:25:04 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/src/main/scala/Zad02.scala[0m
+Jul 07, 2022 12:25:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27891
+2022.07.07 00:25:25 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/src/main/scala/Zad02.scala[0m
+2022.07.07 00:25:47 WARN  no build target for: /home/klebiedzinski/JP1/lebiedzinski-karol/kolokwium_1/src/main/scala/Zad02.scala[0m

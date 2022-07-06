@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /home/klebiedzinski/JP1/lebiedzinski-karol/doPoprawy/aktorzy/lab12/src/main/scala/Jabberwocky.scala:63:16 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m63 |[0m        context.terminate[0m
+[0m[[0m[31merror[0m] [0m[0m   |        [31m^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |        value terminate is not a member of akka.actor.ActorContext[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
